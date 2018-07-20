@@ -74,6 +74,13 @@ both `antelope` and `antelopes`.)
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
 
+    /(\e\[)(\d+;)*(\d+)([mf])/g   
+    *this is the correct one using the \e for the ESC
+    
+    /(ESC\[)(\d+;)*(\d+)([mf])/g  
+    *this is because on https://regexr.com 
+    the text did not match with \e
+
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
 
