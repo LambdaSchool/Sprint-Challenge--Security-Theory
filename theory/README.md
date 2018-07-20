@@ -11,12 +11,14 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+    let regex = /antelopes? rocks? out/g
 * Regex that matches either of:
 
     goat
     
     moat
 
+    let regex = /[gm]oat/g
   but not:
 
     boat
@@ -33,6 +35,8 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
+  let regex = /\(?(\d{3,})\)?[\s-]?\d{1,}[\s-]?\d{1,}/g
+
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
@@ -43,11 +47,15 @@ both `antelope` and `antelopes`.)
       ab*c+d?[ef]
 
   Remember the ε transition can be used to move between states without
-  consuming input. 
+  consuming input.
+
+
 
 * A lion can be sleeping, eating, hunting, or preening. Draw a state
   machine diagram for the lion and label the transition events that
   cause state transitions.
+
+
 
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
@@ -55,7 +63,7 @@ both `antelope` and `antelopes`.)
   for commands to change its behavior. For example:
 
       ESC[12;45f
-
+      let regex = /`\e`(\d{2})(\d{2});(\w{1})/g
   moves the cursor to line 12, column 45.
 
       ESC[1m
