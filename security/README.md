@@ -14,7 +14,11 @@ well.
 # Part 1 - Understand and Communicate a Threat Model
 
 Think of a threat model - a situation with a user (or type of user) and a
-context that frames their personal security preferences and situation. Concepts
+context that frames their personal security preferences and situation. 
+
+A payroll company's data. 
+
+Concepts
 you should consider (and a few examples of each) include:
 
 - Attack surface (what tech/situation exposes them, e.g. systems they use, places they go)
