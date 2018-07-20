@@ -27,6 +27,8 @@ professional email to explain it to a coworker. Please turn in a file
 `ThreatModel.md` with 1-2 paragraphs addressing the above concepts in a concise
 fashion.
 
+  
+
 
 # Part 2 - Practical Security
 
