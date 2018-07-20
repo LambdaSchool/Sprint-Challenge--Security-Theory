@@ -1,0 +1,2 @@
+I use a password manager that is secured through a password that involves Upper and Lower case letters, symbols, and numbers. I used it on most of my sign ins. It allows for an auto fill function that saves a lot of time. 
+I also added two factor authentication to the places with monetary value or importance. I use it on my primary email for my password manager as I feel that its security is of the utmost importance. 
