@@ -62,9 +62,13 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
+      Regex: `/\e\[(\d+);(\d+)./g`
+
   moves the cursor to line 12, column 45.
 
       ESC[1m
+
+      Regex: `/\e\[1./g`
 
   changes the font to bold.
 
