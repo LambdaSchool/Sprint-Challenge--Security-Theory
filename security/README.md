@@ -78,3 +78,5 @@ depend on security through obscurity, so it should be safe to talk about it as
 long as you don't share actual passwords/secrets). As a stretch goal, write a
 blog post about your security setup describing what you’ve learned and tips you
 have for others.
+
+  I have taken a few of these steps already, including setting up 2fa on my accounts and using a password manager. Also, I don't connect to public hotspots, and my local network has firewalls. Also I use a ssh key for my github account. However, this is primarily for convencience so I don't have to login everytime I make a push.
