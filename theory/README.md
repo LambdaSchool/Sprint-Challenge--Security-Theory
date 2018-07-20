@@ -5,20 +5,21 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
+/antelopes?/g
+/(antelopes?)\s*(rocks?)\s*(\w*)/g
+/((?:g|m)oat)/g
+/([0-9]{1,4})\-([0-9]{1,2})\-([0-9]{1,2})/g
+
 * Single regex that matches either of these:
 
     antelope rocks out
-    
     antelopes rock out
 
 * Regex that matches either of:
 
     goat
-    
     moat
-
   but not:
-
     boat
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
@@ -26,11 +27,8 @@ both `antelope` and `antelopes`.)
   is correct (e.g 3333-33-33 can match).
 
   2000-10-12
-  
   1999-1-20
-  
   1999-01-20
-  
   812-2-10
 
 ## State Machines
@@ -55,10 +53,12 @@ both `antelope` and `antelopes`.)
   for commands to change its behavior. For example:
 
       ESC[12;45f
+      /\e\[([0-9]{1,4}\;[0-9]{1,4}\w)/g
 
   moves the cursor to line 12, column 45.
 
       ESC[1m
+      /\e\[[1][a-z]{1}/g
 
   changes the font to bold.
 
