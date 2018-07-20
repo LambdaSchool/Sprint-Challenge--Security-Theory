@@ -1,3 +1,5 @@
+# Security
+
 The security challenge is a little different - you won't be writing code.
 Instead, you'll be thinking about security, practicing your professional
 communication skills by writing about a threat model as if you were emailing a
@@ -9,7 +11,6 @@ a blog post).
 For both of these, turn it in by commiting a Markdown file with your writing to
 your fork of this repository. If you publish elsewhere, please share the link as
 well.
-
 
 # Part 1 - Understand and Communicate a Threat Model
 
@@ -26,7 +27,6 @@ Write a summary of the overall situation as if you were going to send it as a
 professional email to explain it to a coworker. Please turn in a file
 `ThreatModel.md` with 1-2 paragraphs addressing the above concepts in a concise
 fashion.
-
 
 # Part 2 - Practical Security
 
