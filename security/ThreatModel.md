@@ -17,4 +17,18 @@ The school wifi which provides internet access to all staff members of the schoo
 - Absence during lunctime -- however infrequent it may be -- leaves his computer exposed.
 - Using email or cloud services to store important information.
 
+### Adversaries
+- Students
+- Other teachers (unlikely)
+
+### Attack vectors
+- Possible using USB stick to directly access his computer during his absence in lunctime:
+
+``` 
+- Password theft/cracking by injecting script to mine his password for his accounts
+- inject keylogger
+- inject script to steal password for wifi for school
+- stealing important materials (class materials, solutions to tests, quizes)
+- invade private information through personal social media (likely to have same passwords and username as his emails)
+```
 
