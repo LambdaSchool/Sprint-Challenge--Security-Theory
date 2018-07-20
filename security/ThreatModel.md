@@ -32,3 +32,12 @@ The school wifi which provides internet access to all staff members of the schoo
 - invade private information through personal social media (likely to have same passwords and username as his emails)
 ```
 
+### Mitigations
+- Start using some kind of password for his computer to deny initial access to his computer.
+- Use different password for his email and cloud service accounts.
+- Use 2-factor authentications for all accounts that provide the security measure.
+- Use password manager to encrypt; use different password for each account.
+- Do not use social media or leave it logged in on company computer (i.e. macintosh)
+- Use wired internet rather than wifi for macintosh. (compromises wifi password.)
+- Use laptop to access class materials and quizzes/test from cloud or log out every time you don't need to use cloud services on the company computer.
+- screenlock/log out or turn computer off when leaving for lunch time.
