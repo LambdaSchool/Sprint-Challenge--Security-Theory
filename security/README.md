@@ -18,9 +18,15 @@ context that frames their personal security preferences and situation. Concepts
 you should consider (and a few examples of each) include:
 
 - Attack surface (what tech/situation exposes them, e.g. systems they use, places they go)
+
+input fields for website's login
 - Adversaries (who may be interested in compromising their security, e.g. criminals, pranksters)
+individuals interested in stealing credit card information
 - Attack vectors (specifically how they may be compromised, e.g. password theft/cracking, surveillance)
+password theft via SQL injections or keyloggers, password cracking via brute force
 - Mitigations (what can be done to reduce the risk, e.g. 2-factor auth, encryption)
+change to a more secure database, add proper input filtering, add captchas for protection against brute force hacking
+
 
 Write a summary of the overall situation as if you were going to send it as a
 professional email to explain it to a coworker. Please turn in a file
