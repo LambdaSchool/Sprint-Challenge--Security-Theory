@@ -14,9 +14,9 @@
 
 ## State Machines
 
-Lion state machine ![lion](./lion.png)
+Lion state machine attached ![lion](./lion.jpg)
 
-Not-lion state machine ![abcdef](./abcdef.png)
+Not-lion state machine attached ![abcdef](./abcdef.png)
 
 ### VT100
 
@@ -28,6 +28,6 @@ Not-lion state machine ![abcdef](./abcdef.png)
 
 /\e\[(\dm)/g 
 
-state machine 
+state machine attached
 ![VT100](./VT100.png)
 
