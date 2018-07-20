@@ -63,13 +63,13 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
-      /ESC\[(\d{1,});(\d{1,})f/g      // \x1B = ESC in ASCII
+      /\x1B\[(\d{1,});(\d{1,})f/g      // \x1B = ESC in ASCII
 
   moves the cursor to line 12, column 45.
 
       ESC[1m
 
-      /ESC\[1m/g
+      /\x1B\[1m/g
 
   changes the font to bold.
 
