@@ -1,0 +1,1 @@
+Previously I had a few two-factor authentications on some of my accounts and varying passwords but no password manager. Today I set up a 1Password and my master password. I generated cryptic passwords for most of my accounts and also added a few more two-factor authentications.
