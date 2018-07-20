@@ -1,0 +1,1 @@
+Set up password manager LastPass, agonized over suitably long and random passphrase, began changing passwords for all accounts. Each new password is unique to that account, passwords are random and unrelated.
