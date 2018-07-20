@@ -30,4 +30,4 @@
 
 - [x] Draw a state machine that corresponds to the following regex: ab\*c+d?[ef]
 - [x] Lion State Machine
-- [ ] The VT-100 terminal (console) [ ESC[12;45f ESC[1m ]
+- [x] The VT-100 terminal (console) [ ESC[12;45f ESC[1m ]
