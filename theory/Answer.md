@@ -8,7 +8,10 @@
 
 ## State Machine
 
-### ab*c+d?[ef]
+### ab*c+d?[ef] State Machine
 
 ![alt text](RegexSM.png "regex")
 
+### Lion State Machine
+
+![alt text](LionSM.png "lion")
