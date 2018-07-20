@@ -13,12 +13,12 @@
 
 # Security Part 2 - Practical Security: Do something to improve your personal security setup
 
-- [ ] Create File: `PracticalSecurity.md`.
-- [ ] Set Up Password Manager.
-- [ ] Pick a suitably long _passphrase_ to protect your password manager.
-- [ ] Set Up 2 Factor Authentication.
+- [x] Create File: `PracticalSecurity.md`.
+- [x] Set Up Password Manager.
+- [x] Pick a suitably long _passphrase_ to protect your password manager.
+- [x] Set Up 2 Factor Authentication.
 - [ ] Set up proper SSH keypairs for services that support it (e.g. GitHub).
-- [ ] Summarize in file:`PracticalSecurity.md` with 1-2 paragraphs.
+- [x] Summarize in file:`PracticalSecurity.md` with 1-2 paragraphs.
 
 # Theory of Computation: Regular Expressions
 
