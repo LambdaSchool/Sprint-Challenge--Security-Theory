@@ -11,7 +11,7 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
-* Regex that matches either of:
+* Regex that matches either of: /[gm]\w+/g
 
     goat
     
