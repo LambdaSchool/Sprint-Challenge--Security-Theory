@@ -20,14 +20,14 @@
 
 1. ESC[12;45f
 
-Regex: /\e\[[\d\;\w]+/g
+Regex: \e\[[\d]+\;[\d]+f
 
 2. ESC[1m
 
-Regex: /\e\[[1]m/g
+Regex: /\e\[1m/g
 
 3. VT-100 Terminal State Machine
 
-Regex: /ESC\[[\d\w\;]+/g
+Regex: /\e\[[\d\;]+[a-z]/g
 
 ![alt text](VT-100SM.png "vt-100")
