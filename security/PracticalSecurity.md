@@ -1,0 +1,1 @@
+I used KeePass for my email/bank/github passwords. I already use uBlock Origins to block a bunch of ads and trackers, and disable javascript and block cookies on websites by default, and just enable the ones that are needed for the site to function.
