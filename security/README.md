@@ -27,6 +27,10 @@ professional email to explain it to a coworker. Please turn in a file
 `ThreatModel.md` with 1-2 paragraphs addressing the above concepts in a concise
 fashion.
 
+  In this situation Jeff is a middle class worker at a financial firm. His attack surface is his home network, phone, and his families devices. People who could be adversaries are identity thieves. The way they could do this is by getting into Jeff's network through his phone, or his and his families devices. For example, if one of them connects to a public hotspot, perhaps an attacker could upload a virus that eventually gets into Jeff's home network. From there it's possible a lot of Jeff's private information could be stolen and used for identity theft. To prevent this, Jeff should have a fiewall up on his network, and make sure to not connect to public hotspots.
+
+
+
   
 
 
