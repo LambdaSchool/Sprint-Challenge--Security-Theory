@@ -7,4 +7,6 @@
 
 - Discourage autofill username and password for accounts that store important files or conversations.
 
+- Pick a suitably long passphrase to protect your password manager.
+
 - Started using password manager - KeePass ~~(It will be deleted in 3 days' time)~~
