@@ -73,7 +73,7 @@ both `antelope` and `antelopes`.)
       ESC[1m
 
       REGEX IS AS FOLLOWS: -> /[ESC+[+/d1m]/g
-      -ESC is throwing me off
+      -ESC is throwing me off not sure how to implement
 
   changes the font to bold.
 
@@ -83,7 +83,7 @@ both `antelope` and `antelopes`.)
     a single character which can be represented with `\e` in the regex.)
 
     DONE ABOVE 
-    
+
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
 
