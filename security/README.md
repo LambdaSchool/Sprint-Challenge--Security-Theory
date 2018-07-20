@@ -18,9 +18,24 @@ context that frames their personal security preferences and situation. Concepts
 you should consider (and a few examples of each) include:
 
 - Attack surface (what tech/situation exposes them, e.g. systems they use, places they go)
+    - Wifi hotspots where people can sniff packets
+    - Downloading infected programs
+    - Not updating software
+    - Not changing password every few months
 - Adversaries (who may be interested in compromising their security, e.g. criminals, pranksters)
+    - Hackers
+    - Someone who wants revenge
+
 - Attack vectors (specifically how they may be compromised, e.g. password theft/cracking, surveillance)
+
+- Password may be taken from keyloggers
+- Important files taken by a MITM attack
+
 - Mitigations (what can be done to reduce the risk, e.g. 2-factor auth, encryption)
+
+- SSH
+- Password Manager
+- Update all programs/software(including laptop or pc)
 
 Write a summary of the overall situation as if you were going to send it as a
 professional email to explain it to a coworker. Please turn in a file
