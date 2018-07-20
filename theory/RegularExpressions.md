@@ -6,3 +6,6 @@
 
 /[gm]oat/g
 
+- Regex that matches dates in YYYY-MM-DD format
+
+/\d{1,4}-\d{1,2}-\d{1,2}/g
