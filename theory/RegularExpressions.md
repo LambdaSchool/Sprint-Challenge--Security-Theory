@@ -2,3 +2,7 @@
 
 /antelopes? rocks? out/g
 
+- Regex that matches either `goat` and `moat` but not `boat`
+
+/[gm]oat/g
+
