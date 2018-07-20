@@ -5,13 +5,13 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
-* Single regex that matches either of these:
+* Single regex that matches either of these: `((?:[a-z][a-z0-9_]*))`
 
     antelope rocks out
     
     antelopes rock out
 
-* Regex that matches either of:
+* Regex that matches either of: `(([a-z][^b]*))`
 
     goat
     
@@ -21,9 +21,9 @@ both `antelope` and `antelopes`.)
 
     boat
 
-* Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
-  month and day can each be 1-2 digits). This does not need to verify the date
-  is correct (e.g 3333-33-33 can match).
+* Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and month and day can each be 1-2 digits). This does not need to verify the date is correct (e.g 3333-33-33 can match).
+
+`/^\d{3,4}-\d{1,2}-\d{2}/gm`
 
   2000-10-12
   
