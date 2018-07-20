@@ -11,6 +11,7 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+    var regex = /antelopes? rocks? out/g
 * Regex that matches either of:
 
     goat
