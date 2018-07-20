@@ -11,7 +11,7 @@ both `antelope` and `antelopes`.)
 
     antelopes rock out
 
-    /a[a-z]+s? r[a-z]+s? out/g
+    /(antelopes rock|antelope rocks) out/g
 
 * Regex that matches either of:
 
@@ -23,7 +23,7 @@ both `antelope` and `antelopes`.)
 
     boat
 
-    /[^b]oat/g
+    /[gm]oat/g;
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -37,7 +37,7 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
-/\d{1,4}- \d{1,2}-\d{1,2}/g
+/(\d{1,4})-(\d{1,2})-(\d{1,2})/g
 
 ## State Machines
 
