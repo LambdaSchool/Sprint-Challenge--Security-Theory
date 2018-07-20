@@ -6,7 +6,7 @@ personal security, and again write up what you've done (just to document it, but
 a good stretch goal is to make your writing even more polished and publish it as
 a blog post).
 
-For both of these, turn it in by commiting a Markdown file with your writing to
+For both of these, turn it in by committing a Markdown file with your writing to
 your fork of this repository. If you publish elsewhere, please share the link as
 well.
 
