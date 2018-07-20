@@ -1,0 +1,1 @@
+I set up two factor authentication for my email(gmail) and updated my SSH keypairs for github on my laptop. I also started researching various password managers to figure out the best one for my needs.
