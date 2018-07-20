@@ -70,13 +70,13 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
-<!-- [ESC]\[[0-9][0-9, a-z];[0-9]{2}[a-z] -->
+<!-- ESC\[[0-9][0-9, a-z];[0-9]{2}[a-z] -->
   
   moves the cursor to line 12, column 45.
 
       ESC[1m
 
-<!-- [ESC]\[[0-9][0-9, a-z] -->
+<!-- ESC\[[0-9][0-9, a-z] -->
 
   changes the font to bold.
 
