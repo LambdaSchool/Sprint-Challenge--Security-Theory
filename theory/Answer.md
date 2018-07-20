@@ -10,6 +10,5 @@
 
 ### ab*c+d?[ef]
 
-![alt text][regexSM]
-[regexSM]: RegexSM.png "regexSM"
+![alt text](RegexSM.png "regex")
 
