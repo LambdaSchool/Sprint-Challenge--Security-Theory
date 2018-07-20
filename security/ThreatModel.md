@@ -10,4 +10,11 @@ Stephen's general accounts for emails and filesharing services have same email, 
 
 The school wifi which provides internet access to all staff members of the school is password locked. The students are locked out of internet access to restrict them from using smartphones during class, but some students seems to be able to use the wifi for unknown reason.
 
+### Attack Surface
+- Lack of password/pattern on his computer
+- All accounts are logged in at all times
+- All accounts share same password, same email.
+- Absence during lunctime -- however infrequent it may be -- leaves his computer exposed.
+- Using email or cloud services to store important information.
+
 
