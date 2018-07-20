@@ -58,7 +58,7 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
-  moves the cursor to line 12, column 45. /(\e\[)\d+\;\d+f/g
+  moves the cursor to line 12, column 45. /(\e\[)\d+\;\d+f/g || /(\e\[)(\d+\;\d+)\D/g
 
       ESC[1m
 
