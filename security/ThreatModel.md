@@ -1,10 +1,11 @@
 Hello Bob,
 
-I was going through old code and noticed we may have a security problem. ESLint was recently compromised and malicious code was allowed onto our system to log our tokens.
+We have a couple of security issues i'd like to bring up. I've noticed fellow coworkers take their work laptops outside of the office while on break or after work. It's unsecure and a risk to the company.
 
-In my opinion we should go through all our past code and make sure we update the packages. we'll also need to perform audits for security purposes. 
+There are certian adversaries such as competitors or hackers who'd love the change to view the companies files and source code. For all we know their network can be compromised using MITM to log their work passwords/emails. Even worse they could have access to their systems.
 
-P.S. 
-    Remember to delete all github tokens 
+I recommend we up our security and encrypt all devices which connct to our network and make them perform 2-factor. Lastly the best thing we could do is have a mandatory meeting to explain the security risks and how they can be avoided using certain software and techniques.
+
+
 
 - Your coworker
