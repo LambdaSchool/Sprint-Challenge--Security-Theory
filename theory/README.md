@@ -6,7 +6,7 @@ Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
 * Single regex that matches either of these:
-  - /^(antelopes|antelope)/gmi
+  - /.*pes?.*ks? (out)/gmi
 
     antelope rocks out
     
