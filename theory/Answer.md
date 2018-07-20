@@ -25,3 +25,9 @@ Regex: /\e\[[\d\;\w]+/g
 2. ESC[1m
 
 Regex: /\e\[[1]m/g
+
+3. VT-100 Terminal State Machine
+
+Regex: /ESC\[[\d\w\;]+/g
+
+![alt text](VT-100SM.png "vt-100")
