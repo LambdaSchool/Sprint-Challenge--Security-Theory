@@ -11,5 +11,5 @@
 ### ab*c+d?[ef]
 
 ![alt text][regexSM]
-[regexSM]: ./RegexSM.png "regexSM"
+[regexSM]: RegexSM.png "regexSM"
 
