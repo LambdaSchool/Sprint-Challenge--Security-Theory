@@ -8,7 +8,7 @@ The people or Hacker who may have interest in compromising the security of the u
 
 ### Attack Vectors
 
-Meaning the actual attach type may be password theft/cracking, surveillance, key-logger, fishing(using fake web page) to get the username and password or spoofing the webite, may be done by sending a virus.
+Meaning the actual attach type may be password theft/cracking, surveillance, key-logger, phishing(using fake web page) to get the username and password or spoofing the webite, may be done by sending a virus.
 
 ### Mitigations
 

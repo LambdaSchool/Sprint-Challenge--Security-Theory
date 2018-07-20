@@ -11,7 +11,7 @@ both `antelope` and `antelopes`.)
     
 ##Ans: 
   /antelopes? rocks? out/g
-
+//   antelope + 0 or more s before ? + space + rock +  0 or more s before ? + space + 
 
 * Regex that matches either of:
 
@@ -24,7 +24,7 @@ both `antelope` and `antelopes`.)
     boat
 
 ##Ans:
-    /g|moat/g
+    /g|moat/g // either g or m + oat find globally 
     or 
     /[gm]oat/g
 

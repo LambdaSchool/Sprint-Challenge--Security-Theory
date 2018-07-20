@@ -24,8 +24,12 @@
 - [x] Single regex.
 - [x] Regex that matches either of.
 - [x] Dates Regex.
+
 # Theory of Computation: State Machines
 - [ ] Draw a state machine that corresponds to the following regex: ab*cd?[ef]
 - [ ] Lion State Machine
 - [ ] The VT-100 terminal (console) [ ESC[12;45f  ESC[1m ]
 
+* --> 0 or more 
++ --> 1 or more
+? --> 
