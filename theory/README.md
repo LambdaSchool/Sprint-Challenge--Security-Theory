@@ -55,11 +55,11 @@ both `antelope` and `antelopes`.)
   for commands to change its behavior. For example:
 
       ESC[12;45f
-
+      /\e\[([0-9]{1,4}\;[0-9]{1,4}\w)/g
   moves the cursor to line 12, column 45.
 
       ESC[1m
-
+       /\e\[[1][a-z]{1}/g
   changes the font to bold.
 
   * Come up with regexes for the two above sequences. The one to set the
