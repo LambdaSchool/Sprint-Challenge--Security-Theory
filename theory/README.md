@@ -11,6 +11,8 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+    `/antelopes? rocks? out/g`
+
 * Regex that matches either of:
 
     goat
@@ -20,6 +22,8 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
+  `/[^b]oat/g`
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -33,6 +37,8 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
+  `/(\d{1,4})-(\d{1,2})-(\d{1,2})/g`
+
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
@@ -42,12 +48,13 @@ both `antelope` and `antelopes`.)
 
       ab*c+d?[ef]
 
-  Remember the ε transition can be used to move between states without
-  consuming input. 
+  ![](abc.PNG)
 
 * A lion can be sleeping, eating, hunting, or preening. Draw a state
   machine diagram for the lion and label the transition events that
   cause state transitions.
+
+  ![](lion.PNG)
 
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
@@ -56,9 +63,13 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
+      /\x1B\[(\d{1,});(\d{1,})f/g      // \x1B = ESC in ASCII
+
   moves the cursor to line 12, column 45.
 
       ESC[1m
+
+      /\x1B\[1m/g
 
   changes the font to bold.
 
