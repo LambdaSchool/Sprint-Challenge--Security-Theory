@@ -27,6 +27,11 @@ professional email to explain it to a coworker. Please turn in a file
 `ThreatModel.md` with 1-2 paragraphs addressing the above concepts in a concise
 fashion.
 
+Attack Surface:  Ecommerce store.  Online login, credit card information
+Adversaries:  Hackers wanting credit card numbers and/or making fraudulant purchases
+Attack Vectors:  Pasword cracking,  spoofing the webite, keylogging virus
+Mitigations:  Require strong passwords,  CSRF token, 2FA
+
 
 # Part 2 - Practical Security
 
