@@ -1,0 +1,3 @@
+To incoming co-workers,
+
+    The company needs to keep all of its data safe and secure. As developers we are targeted for vunerabilities in our work to steal information from our clients or our own data base. Therefore, we need to use strong secured passwords at all times. We encouraged you to use a password manager for all your passwords, as well as two factor authentication whenever possible. As developers consider connecting to Github with SSH and use GPG keypair to sign your commits. This will ensure the company that your work is coming actually from you and not from other sources that might want to attack. Thank you, for your all your work and be safe and secure out there.
