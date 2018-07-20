@@ -7,4 +7,4 @@
 
 - Discourage autofill username and password for accounts that store important files or conversations.
 
-- Started using password manager - KeePass ~~(It will be deleted in 3 days time)~~
+- Started using password manager - KeePass ~~(It will be deleted in 3 days' time)~~
