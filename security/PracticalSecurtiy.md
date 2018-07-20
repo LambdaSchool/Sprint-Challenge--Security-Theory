@@ -1,0 +1,3 @@
+I implemented keepass on my computer to store and encrypt all of my passwords across various accounts. I also changed each password of all of my main accounts to be unique so if one password is breached the rest of my passwords are still secure across each site. 
+
+I also set up two factor auth for my gmail account which i use to login in to many site so it will send me a text with a temp password to login into my gmail along with requiring my main password.
