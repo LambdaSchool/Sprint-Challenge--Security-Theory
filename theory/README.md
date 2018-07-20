@@ -40,7 +40,7 @@ both `antelope` and `antelopes`.)
   812-2-10
 
 <!-- Answer -->
-`[0-9]+-[0-9]+-[0-9]+`>
+`[0-9]{1,4}-[0-9]{1,2}-[0-9]{1,2}`>
 
 ## State Machines
 
@@ -90,7 +90,7 @@ both `antelope` and `antelopes`.)
 
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
-
+```
 <!-- Shown in 1:1 -->
 
 > If you're curious, [here are all the VT-100 escape
