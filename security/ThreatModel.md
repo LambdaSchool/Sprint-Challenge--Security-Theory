@@ -1,8 +1,8 @@
 Situation
--   A lawyer that manages multiple sensitive data on clients and cases, which may include bank related information, personal relationships, evidence, media, witness information, statements, confidential documents, etc.
+- A lawyer that manages multiple sensitive data on clients and cases, which may include bank related information, personal relationships, evidence, media, witness information, statements, confidential documents, etc.
 
 Attack Surface
--   Working outside secure premises is bound to happen by leaving the office/working remotely. In these cases the information contained in a personal computer might be exposed to common threats by undesired parties.
+- Working outside secure premises is bound to happen by leaving the office/working remotely. In these cases the information contained in a personal computer might be exposed to common threats by undesired parties.
 
 Adversaries
 This strongly depends on each case scenario, but in a general sense:
