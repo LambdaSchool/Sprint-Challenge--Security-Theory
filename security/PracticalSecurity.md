@@ -1,0 +1,3 @@
+My security was definitely lacking. I setup two-factor authentication on github and google. Both using sms as a verification code which is good since I never leave my phone out in the open where someone could steal it.
+
+I also encrypted my device with a 14+ character long password. Although the normal sign-in password is the same which is why I only use a finger-print scanner to avoid anyone seeing what I type in.

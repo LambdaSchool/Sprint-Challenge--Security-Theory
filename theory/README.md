@@ -6,12 +6,15 @@ Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
 * Single regex that matches either of these:
+  - /.*pes?.*ks? (out)/gmi
 
     antelope rocks out
     
     antelopes rock out
 
 * Regex that matches either of:
+
+- /^(goat|moat)/gmi
 
     goat
     
@@ -25,6 +28,7 @@ both `antelope` and `antelopes`.)
   month and day can each be 1-2 digits). This does not need to verify the date
   is correct (e.g 3333-33-33 can match).
 
+- /^\d{1,4}-\d{1,2}-\d{1,2}/gmi
   2000-10-12
   
   1999-1-20
@@ -61,6 +65,10 @@ both `antelope` and `antelopes`.)
       ESC[1m
 
   changes the font to bold.
+
+  Regex:
+  /\e\[\d+;\d+f/
+  /\e\[1m/
 
   * Come up with regexes for the two above sequences. The one to set the
     cursor position should accept any digits for the row and column. The
