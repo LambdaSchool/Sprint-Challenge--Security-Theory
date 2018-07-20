@@ -40,7 +40,7 @@ both `antelope` and `antelopes`.)
 
 * Draw a state machine that corresponds to the following regex:
 
-      ab*c+d?[ef]
+      ab*cd?[ef]
 
   Remember the ε transition can be used to move between states without
   consuming input. 
