@@ -1,0 +1,9 @@
+Model: A software developer works at a company that creates and maintains medical databases. He is a senior developer in charge of a branch maintaining existing databases for a local hospital network with hundreds of thousands of patients. Hospitals use this company's database to store information such as patients' medical history, social security numbers, billing information, contact information, and addresses in an effort to overhaul their medical records system. This developer uses keycards to access the building and individual passwords to log in to his computer and access the company network/internal tools. He often works in public places without his superiors knowing.
+
+Attack Surface: The developer use of public wifi, keycard, and individual passwords can be used against him to access his credentials and his company.
+
+Attack Vectors: Hackers can target his computer while the developer is using public wifi while he works in public places. They can use the fact that public wifi is not secure to hack into his computer remotely to search for passwords, documents, and set up a remote connection. Hackers can also attempt to steal his keycard to physically infiltrate the company to collect information. They can also use social engineering to obtain his credentials and access his computer.
+
+Adversaries: Identity thieves and hacker groups
+
+Mitigations: The developer can stop using public wifi to access his company's network and internal tool. He can also request his company stop using keycards and use fingerprint/retina scanners. The developer should also use a password manager to manage his work passwords.
