@@ -11,6 +11,8 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+    ([a-zA-Z]+?)(s\b|\b)
+
 * Regex that matches either of:
 
     goat
@@ -20,6 +22,8 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
+    /^(goat|moat)/gmi
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -32,6 +36,8 @@ both `antelope` and `antelopes`.)
   1999-01-20
   
   812-2-10
+
+  /^\d{1,4}-\d{1,2}-\d{1,2}/gmi
 
 ## State Machines
 
@@ -67,8 +73,13 @@ both `antelope` and `antelopes`.)
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
 
+  /\e\[\d+;\d+f/
+  /\e\[1m/
+
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
+
+    
 
 > If you're curious, [here are all the VT-100 escape
 > sequences](http://ascii-table.com/ansi-escape-sequences-vt-100.php).
