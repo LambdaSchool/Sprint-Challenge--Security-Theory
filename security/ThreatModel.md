@@ -1,3 +1,7 @@
+# Earned Security+ SY0-401 , 12/22/2016
+# Score Earned: 823
+# Passing Score: 750, Max Score: 900
+
 # Part 1
 There are a lot of security vulnerabilities in the current technologically connected world. The reality is that the internet was never intended to be a secure infrastructure, it's inherently insecure from the start. Since the early beginnings of the internet, it became apparent that the need to secure one's computer from malicious individuals was a need; this is how information security started. A malicious individual, if persistent enough, will be able to get into another indivuals computer's if desired; a malicious group (such as state sponosored individuals), which are persisntent, is practically a guarantee that they can target any association (government, public company, private company, etc), or individual. So, an individual should follow information security best practices, but that's no guarantee that it'll protect against malicious individuals or groups. An example of a recent state sponsored attack was from Russia, targeting home routers, which will contact one server initially, then a secondary server (which had the malicious content); this was caught by the FBI, which is good, but this was caught most likely because it targeted a large portion of the population, otherwise it might not have been found.   
 
