@@ -1,0 +1,3 @@
+- Improved all my passwords with a stronger version. Long phrases with capitals, numbers and symbols.
+- Added Two-Step Auth.
+- Improving Github security with SSH.
