@@ -55,6 +55,8 @@ both `antelope` and `antelopes`.)
   machine diagram for the lion and label the transition events that
   cause state transitions.
 
+  ![lion](lion.png)
+
 - The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
   ESC character (ASCII 27), it goes into a special mode where it looks
@@ -72,6 +74,9 @@ both `antelope` and `antelopes`.)
     cursor position should accept any digits for the row and column. The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
+
+    > > > > > /\e\[(\d+;\d+f)/g
+    > > > > > /\e\[1m/g
 
   - Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
