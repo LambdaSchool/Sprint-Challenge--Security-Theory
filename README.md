@@ -22,9 +22,9 @@
 
 # Theory of Computation: Regular Expressions
 
-- [ ] Single regex.
-- [ ] Regex that matches either of.
-- [ ] Dates Regex.
+- [x] Single regex.
+- [x] Regex that matches either of.
+- [x] Dates Regex.
 
 # Theory of Computation: State Machines
 
