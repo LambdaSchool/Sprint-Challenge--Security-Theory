@@ -11,7 +11,7 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
-    myRegx = /antelopes?/g
+    myRegx = /antelopes? rocks? out/g
 
 * Regex that matches either of:
 
@@ -19,7 +19,7 @@ both `antelope` and `antelopes`.)
     
     moat
 
-  but not:
+* but not:
 
     boat
 
@@ -51,8 +51,9 @@ both `antelope` and `antelopes`.)
   Remember the ε transition can be used to move between states without
   consuming input. 
 
-* A lion can be sleeping, eating, hunting, or preening. Draw a state
-  machine diagram for the lion and label the transition events that
+* A lion can be sleeping, eating, hunting, or preening. 
+  Draw a state machine diagram for the lion 
+  and label the transition events that
   cause state transitions.
 
 * The VT-100 terminal (console) outputs text to the screen as it
