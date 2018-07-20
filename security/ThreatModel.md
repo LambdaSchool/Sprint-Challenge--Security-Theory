@@ -1,0 +1,7 @@
+For someone concerned with security I believe the attack surfaces are their phones, the apps they visit as well as the web apps they visit, another attack surface could be a keycard from work or computers used at hotels and stuff were they are only using that computer temporarily or for a limited time. Also from personal experience i have seen open windows, stuck doors, dirty hinges failing maglocks and so on. 
+
+The advisories would be criminals of opportunity, pranksters, maybe old gf or bf or spouses. 
+
+The attack vectors they would be having access to would be auto logins, passwords, phyiscal key cards that do not require any more identification, windows, stuck doors, weak closing mechanisms, failing maglocks. 
+
+Mitigations they could put in place would be. ensuring all doors are locked and all windows are both closed and locked before leaving the building. After using a keycard require all employees to have person id's they can put in at their work stations. Use 2-factor auth. Make sure to put a password and password protector on your phone so the first time someone enters a wrong password the phone takes a picture both of front and back of the phone and sends it to you in an e-mail.  make sure to ensure all doors close behind you and verify locks work before using them to enter or exit the building. 
