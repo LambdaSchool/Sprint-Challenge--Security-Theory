@@ -10,7 +10,7 @@ both `antelope` and `antelopes`.)
     antelopes rock out
     
 ##Ans: 
-/antelopes? rocks? out/g
+  /antelopes? rocks? out/g
 
 
 * Regex that matches either of:
@@ -24,9 +24,9 @@ both `antelope` and `antelopes`.)
     boat
 
 ##Ans:
-/g|moat/g
-or 
-/[gm]oat/g
+    /g|moat/g
+    or 
+    /[gm]oat/g
 
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
@@ -42,6 +42,6 @@ or
   812-2-10
 
 ##Ans: 
-/\d{1,4}-\d{1,2}-\d{1,2}/g  
-or
-/[0-9]{1,4}-[0-9]{1,2}-[0-9]{1,2}/g  
+    /\d{1,4}-\d{1,2}-\d{1,2}/g  
+    or
+    /[0-9]{1,4}-[0-9]{1,2}-[0-9]{1,2}/g  
