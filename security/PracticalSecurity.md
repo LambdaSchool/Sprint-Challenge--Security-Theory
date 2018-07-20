@@ -1,0 +1,1 @@
+I enabled a password manager this week (LastPass) and today I spent some time updating my passwords to make better use of it. I also set up two-factor authentication on Google, with the fancy one-time-use codes. I'm looking into a USB key for signing into google (and maybe other services?) while I'm on the road.
