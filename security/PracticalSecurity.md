@@ -1,0 +1,3 @@
+In order to improve my personal security setup I downloaded LastPass for my laptop and mobile devices. I then reset passwords for critical sites such as gmail, bank, github, dropbox, and amazon. I then stored my new passwords inside my LastPass vault. 
+
+As an added measure I set up 2FA for websites that I have accounts for. I installed LastPass authenticator to handle 2FA for all my accounts and linked the authenticator with my LastPass account.
