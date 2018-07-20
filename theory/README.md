@@ -63,6 +63,8 @@ both `antelope` and `antelopes`.)
   Remember the ε transition can be used to move between states without
   consuming input.
 
+  ![alt text](./regexMachine.png 'A pretty dang good representation of a regex state machine.')
+
 - A lion can be sleeping, eating, hunting, or preening. Draw a state
   machine diagram for the lion and label the transition events that
   cause state transitions.
