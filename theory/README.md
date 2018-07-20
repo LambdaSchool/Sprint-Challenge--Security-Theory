@@ -5,13 +5,13 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
-* Single regex that matches either of these:
+* Single regex that matches either of these: `((?:[a-z][a-z0-9_]*))`
 
     antelope rocks out
     
     antelopes rock out
 
-* Regex that matches either of:
+* Regex that matches either of: `(([a-z][^b]*))`
 
     goat
     
@@ -21,9 +21,9 @@ both `antelope` and `antelopes`.)
 
     boat
 
-* Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
-  month and day can each be 1-2 digits). This does not need to verify the date
-  is correct (e.g 3333-33-33 can match).
+* Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and month and day can each be 1-2 digits). This does not need to verify the date is correct (e.g 3333-33-33 can match).
+
+`/^\d{1,4}-\d{1,2}-\d{1,2}/gm`
 
   2000-10-12
   
@@ -43,11 +43,15 @@ both `antelope` and `antelopes`.)
       ab*c+d?[ef]
 
   Remember the ε transition can be used to move between states without
-  consuming input. 
+  consuming input.
+
+  # Struggled to use that website to make an accurate state machine so I only did the Lion one and I probably didn't do it correct either. 
 
 * A lion can be sleeping, eating, hunting, or preening. Draw a state
   machine diagram for the lion and label the transition events that
   cause state transitions.
+
+  `lionstate.png ADDED`
 
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
