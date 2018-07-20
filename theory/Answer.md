@@ -15,3 +15,13 @@
 ### Lion State Machine
 
 ![alt text](LionSM.png "lion")
+
+### VT-100 Terminal State Machine
+
+1. ESC[12;45f
+
+Regex: /\e\[[\d\;\w]+/g
+
+2. ESC[1m
+
+Regex: /\e\[[1]m/g
