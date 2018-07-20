@@ -62,13 +62,13 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
-  **/\e\[\d+;\d+f/**
+  **/\e\[(\d{1,2}**
 
   moves the cursor to line 12, column 45.
 
       ESC[1m
 
-  **/\e\[1m/**
+  **\d{1,2}f|\dm)/g**
 
   changes the font to bold.
 
