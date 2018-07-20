@@ -11,6 +11,9 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+
+  the answer ===> reg = /antelopes?\srocks?\sout/gim
+
 * Regex that matches either of:
 
     goat
@@ -20,6 +23,7 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+the answer ===> reg = /[gmb][ou][at][t ]?n?o?t?:?/gim
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -33,6 +37,7 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
+the answer ==========> reg = /([0-9]{3,4})-([0-9]{1,2})-([0-9]{1,2})/gim
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
@@ -56,9 +61,13 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
+      * the answer is:  reg = /\e[\d;\d/gi
+
   moves the cursor to line 12, column 45.
 
       ESC[1m
+
+      * the answer is : reg = /\e[1m/g
 
   changes the font to bold.
 

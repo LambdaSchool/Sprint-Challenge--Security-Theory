@@ -1,0 +1,63 @@
+### I did the following Things:
+
+1- I did open an account with `lastPass` password manager 
+2- I linked all my E-mail accounts, my facebook, my github to lastPass 
+3- I generated the ssh keys in my computer and I used my Public key in github  to secure the connection 
+4- I did changed some of my previous weak  passwords to became longer and stronger  and has more different characters 
+5- I did generate my gpg public key to let people send me encrypted messages , and i use my private key to decrypt them 
+
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+WqWZ57aYqaafFeY3Y+U=
+=peqd
+-----END PGP PUBLIC KEY BLOCK-----
+6 - I did save my private keys in good location in my computer 
+7 - i did set 2 factor authentication for my apple product 
