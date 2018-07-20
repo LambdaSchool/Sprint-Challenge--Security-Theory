@@ -39,7 +39,7 @@ both `antelope` and `antelopes`.)
 > A useful tool for drawing state machines is [Evan's FSM
 > Designer](http://madebyevan.com/fsm/).
 
-* Draw a state machine that corresponds to the following regex:
+* Draw a state machine that corresponds to the following regex: ![regex State Machine](./regexstatemachine.jpg)
 
       ab*c+d?[ef]
 
@@ -48,7 +48,7 @@ both `antelope` and `antelopes`.)
 
 * A lion can be sleeping, eating, hunting, or preening. Draw a state
   machine diagram for the lion and label the transition events that
-  cause state transitions.
+  cause state transitions. ![Lion State Machine](./lionstatemachine.jpg)
 
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
@@ -67,9 +67,12 @@ both `antelope` and `antelopes`.)
     cursor position should accept any digits for the row and column. The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
+    - Regex for **ESC[12;45f**: &nbsp;  **`/\e[[]\d+[;]\d+[f]/`**
+    - Regex for **ESC[1m**: &nbsp;  **`\e[[]1[m]`**
 
   * Draw a state machine diagram for a VT-100 that can consume regular
-    character sequences as well as the two above ESC sequences.
+    character sequences as well as the two above ESC sequences.![VT-100 State Machine](./VT-100statemachine.jpg)
+
 
 > If you're curious, [here are all the VT-100 escape
 > sequences](http://ascii-table.com/ansi-escape-sequences-vt-100.php).
