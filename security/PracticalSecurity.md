@@ -38,4 +38,6 @@ Some resources/goals:
 
 
 ## Kaitlyn's Thoughts:
+I went ahead and setup a LastPass account for password management of some of my accounts. I've had great success in the past with maintaining my saved passwords with Google's Smart Lock feature which works very well for my chrome browser and also extends to my iPhone. This feature allows me to enable 2-factor authentication for my account as well and protects me in the event my laptop or iPhone should ever be stolen so I can disable accounts remotely. I'll receive texts and/or emails with alerts if my account suspects any abnormal activity - alerting me so I can disable a device if need be.  
 
+This weekend I'm going to research more about connecting my GitHub with SSH so I can easily disable access in the event my laptop is ever stolen. With this enabled I can easily disable the key. 
