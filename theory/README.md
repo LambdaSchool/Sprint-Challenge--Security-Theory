@@ -55,7 +55,7 @@ both `antelope` and `antelopes`.)
   machine diagram for the lion and label the transition events that
   cause state transitions.
 
-  
+
 
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
@@ -63,7 +63,7 @@ both `antelope` and `antelopes`.)
   for commands to change its behavior. For example:
 
       ESC[12;45f
-
+      let regex = /`\e`(\d{2})(\d{2});(\w{1})/g
   moves the cursor to line 12, column 45.
 
       ESC[1m
