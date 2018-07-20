@@ -1,10 +1,10 @@
 ## Regular Expressions
 
-1. Regex: /\w+ \w+ \w+/g
+1. Regex: /antelopes? rocks? out/g
 
-2. Regex: /[gm]\w+/g
+2. Regex: /[gm]oat/g
 
-3. Regex: /[\d\-]+/g
+3. Regex: /\d{1,4}\-\d{1,2}-\d{1,2}/g
 
 ## State Machine
 
