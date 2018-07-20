@@ -6,3 +6,9 @@ The primary access points to which a malicious party could compromise his data w
 - Multiplayer video games
 - Online community
 
+This individual has a gaming community that follows much of what he does and has been growing steadily in the previous months. He seems to trust them, however a mischievous party could try to exploit the above by the following:
+- Use information that he shares/displays to try to hack his accounts
+- Gleaning personal information from the background of his online stream
+- Create a malcious software that connects to victims through video game connection
+- Community using trust agains him to glean sensitive personal information
+
