@@ -23,6 +23,8 @@ both `antelope` and `antelopes`.)
 
     boat
 
+**/[^b]oat/g OR /[gm]oat/g**
+
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
   is correct (e.g 3333-33-33 can match).
@@ -34,6 +36,8 @@ both `antelope` and `antelopes`.)
   1999-01-20
   
   812-2-10
+
+**/\d{1,4}-\d{1,2}-\d{1,2}/g**
 
 ## State Machines
 
@@ -58,9 +62,13 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
+  **/\e\[\d+;\d+f/**
+
   moves the cursor to line 12, column 45.
 
       ESC[1m
+
+  **/\e\[1m/**
 
   changes the font to bold.
 
