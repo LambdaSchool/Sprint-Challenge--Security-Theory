@@ -1,0 +1,6 @@
+There are a few things that I have done to correct some potential security flaws in my own personal space. These include adding a password manager, and adding a virtual machine, as well as including some pen-testing tools that I can use as a software engineer to test not only networks, but my own personal project and web apps as well. 
+
+What I have done is that I have downloaded, installed and now added passwords to a passowrd manager known as dashlane. This is a free-for-life password manager that keeps all of my passwords safe, and also keeps me from mistyping, or forgetting any of them.
+This also helps secure them because I wont be tempted to jot them down in my notes, or leave them in a word doc, or any other breach od INFOSEC.
+
+The other things I have done to Improve my own security, is that I have set up kali linux on virtual box as a virtual machine. Along with windows 10 and metaspoloitable to go through some pen testing of my own personal network and devices to test the security, and make some improvements on them. This will also allow me to run some pen testing on my own personal web applications and any websites I decide to create, thus improving the security of them as well. 

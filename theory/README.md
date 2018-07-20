@@ -11,6 +11,9 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+    REGEX IS AS FOLLOWS: -> /(antelopes?) (rocks?) (out)/g
+    -allows for the addition of the s in antelope/sntelops and rock/rocks
+
 * Regex that matches either of:
 
     goat
@@ -20,6 +23,9 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
+    REGEX IS AS FOLLOWS: -> /[gm]oat/g
+    -no potential for a b to be implemented
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -32,6 +38,9 @@ both `antelope` and `antelopes`.)
   1999-01-20
   
   812-2-10
+
+  REGEX IS AS FOLLOWS: - >/(\d{1,4}).(\d{1,2}).(\d{1,2})/g
+  - allows for digit group between 1 and 4 numbers, then 1 and 2 numbers, and 1 and 2 numbers. 
 
 ## State Machines
 
@@ -56,9 +65,15 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
+      REGEX IS AS FOLLOWS: -> /[ESC[(12);45ef]/g
+      -ESC  is throwing me off 
+
   moves the cursor to line 12, column 45.
 
       ESC[1m
+
+      REGEX IS AS FOLLOWS: -> /[ESC+[+/d1m]/g
+      -ESC is throwing me off
 
   changes the font to bold.
 
@@ -67,6 +82,8 @@ both `antelope` and `antelopes`.)
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
 
+    DONE ABOVE 
+    
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
 
