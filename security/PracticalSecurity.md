@@ -1,3 +1,5 @@
+# Practical Security
+
 Upon reading about the ways to improve security from the list above, I went ahead and connected my GitHub account with SSH and set up two step verification with my gmail account. As an aspiring full stack developer I understand that being secured with my code as well as my communication is extremely important. 
 
 Setting up a SSH key and connecting it with GitHub was a simple process that took less than 15 minutes accompanied with thorough reading about SSH protocols from the link above. The article has clear step by step instructions to first check for ssh keys, then to create one if none is present with commandlines, and store it properly in a ssh agent. Afterward I added this SSH key to my GitHub and verified it by entering my password and tested the connection with my GitHub. These steps were done with the Bash and the settings on my GitHub account. 
