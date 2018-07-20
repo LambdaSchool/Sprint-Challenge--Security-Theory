@@ -11,6 +11,8 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+**/antelopes? \w+ \w+/g**
+
 * Regex that matches either of:
 
     goat
