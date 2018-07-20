@@ -35,6 +35,8 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
+  let regex = /\(?(\d{3,})\)?[\s-]?\d{1,}[\s-]?\d{1,}/g
+
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
