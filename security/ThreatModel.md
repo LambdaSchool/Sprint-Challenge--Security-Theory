@@ -12,3 +12,8 @@ This individual has a gaming community that follows much of what he does and has
 - Create a malcious software that connects to victims through video game connection
 - Community using trust agains him to glean sensitive personal information
 
+Luckily there are ways to prevent such occurrences: 
+- Password manager and two-factor authentication
+- Anti-virus and file scanning software
+- Course in online security
+- Keeping only trivial things in view of streams
