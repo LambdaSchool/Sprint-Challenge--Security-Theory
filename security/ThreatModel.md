@@ -10,4 +10,9 @@ Attack Vectors:
 2.  Whatsapp desktop apps messages are easily readable.
 3.  Metadata is readily handed over to any government entity.
 4.  Data leakage is a geniune fear as Facebook draws more and more data from the users activity to better provide access to marketers. This is one of the primary reasons both founders have left the company.
-    Mitigations: delete Whatsapp. uninstall the apps of any devices. Install Signal, here is a link: https://signal.org/
+
+Mitigations: delete Whatsapp. uninstall the apps of any devices. Install Signal, here is a link: https://signal.org/
+
+If you have any questions hmu.
+
+-y
