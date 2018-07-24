@@ -1,0 +1,1 @@
+2. I downloaded and am now using a Password Manager. It is easy to use and worth it to use considering the alternative to not being careful. In the near future, I will be securing my github file with SSH and investing in upgrades to my hardware security. To go into more detail might compromise my security ;) 
