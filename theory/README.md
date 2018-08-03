@@ -23,6 +23,8 @@ Answer: /antelopes?\s+[\S]+\s[\S]+/g
 
     boat
 
+Answer: /[gm]+oat/g
+
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
   is correct (e.g 3333-33-33 can match).
