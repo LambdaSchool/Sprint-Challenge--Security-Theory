@@ -1,0 +1,3 @@
+# Practical Security
+I have been using a password manager for some time.  No two applications use the same password.  I change the passwords to any sensitive accounts semiannually. I also use 2-factor auth whenever it is avalable.  
+I followed the steps to use ssh with github.  Reading about yubico, i think this might be overkill for my personal computer.   Thinking about seeting up GPG for Github, but looking more into the reasoning.

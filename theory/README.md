@@ -9,7 +9,8 @@ both `antelope` and `antelopes`.)
 
     antelope rocks out
     
-    antelopes rock out
+    antelopes rock out  
+    * /antelopes?\srocks?/g
 
 * Regex that matches either of:
 
@@ -19,7 +20,8 @@ both `antelope` and `antelopes`.)
 
   but not:
 
-    boat
+    boat  
+    * /[^b]oat/g
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -32,6 +34,7 @@ both `antelope` and `antelopes`.)
   1999-01-20
   
   812-2-10
+  * /\d{1,4}-\d{1,2}-\d{1,2}/
 
 ## State Machines
 
@@ -58,17 +61,20 @@ both `antelope` and `antelopes`.)
 
   moves the cursor to line 12, column 45.
 
-      ESC[1m
+      ESC[1m 
 
   changes the font to bold.
 
   * Come up with regexes for the two above sequences. The one to set the
     cursor position should accept any digits for the row and column. The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
-    a single character which can be represented with `\e` in the regex.)
+    a single character which can be represented with `\e` in the regex.)  
+    * /\e\[\d{1,2};\d{1,2}\w/
+    * /\e\[1m/
 
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
+    
 
 > If you're curious, [here are all the VT-100 escape
 > sequences](http://ascii-table.com/ansi-escape-sequences-vt-100.php).
