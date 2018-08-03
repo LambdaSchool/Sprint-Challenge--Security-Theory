@@ -1,0 +1,3 @@
+I actually improved my personal security last weekend as I was researching security to be prepared for this week.
+
+I started using a password manager, I started making more secure passwords, I went through my entire list of cached passwords in Chrome and changed all of my passwords that weren't up to my current standard of password security.  I set up SSH for Github, I set up GPG for Github, and I switched to Two-Factor Auth for everything that was capable of handling it.
