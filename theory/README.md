@@ -11,6 +11,10 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+```javascript
+/antelopes?\srocks?\sout/g
+```
+
 * Regex that matches either of:
 
     goat
@@ -20,6 +24,10 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
+```javascript
+/[gm]oat/g
+```
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
