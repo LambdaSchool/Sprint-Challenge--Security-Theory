@@ -11,6 +11,10 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+```javascript
+/antelopes?\srocks?\sout/g
+```
+
 * Regex that matches either of:
 
     goat
@@ -20,6 +24,10 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
+```javascript
+/[gm]oat/g
+```
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -32,6 +40,10 @@ both `antelope` and `antelopes`.)
   1999-01-20
   
   812-2-10
+
+```javascript
+/\d{1,4}\-\d{1,2}\-\d{1,2}/g
+```
 
 ## State Machines
 
@@ -56,9 +68,17 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
+```javascript
+/\e\[\d+\;\d+/g
+```
+
   moves the cursor to line 12, column 45.
 
       ESC[1m
+
+```javascript
+/\e\[1m?/g
+```
 
   changes the font to bold.
 
