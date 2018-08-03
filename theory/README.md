@@ -1,5 +1,13 @@
 # Theory of Computation Sprint Challenge
 
+---
+
+**My responses can be found here:**
+
+[Responses to `theory/README.md`](ANSWERS.md)
+
+---
+
 ## Regular Expressions
 
 Find regexes that match the following. (e.g. find a single regex that matches

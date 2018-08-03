@@ -42,7 +42,7 @@ const regex = /[^b]oat/g;
 
 
 ```js
-const regex = /\d{1,4}-\d{1,2}-\d{1,2}/g
+const regex = /\d{1,4}-\d{1,2}-\d{1,2}/g;
 ```
 
 ## State Machines
@@ -53,4 +53,43 @@ const regex = /\d{1,4}-\d{1,2}-\d{1,2}/g
 
 ![state1](img/state1.png)
 
-*Any input to a given state not shown in diagram is assumed to transition to `default`.*
+* A lion can be sleeping, eating, hunting, or preening. Draw a state
+  machine diagram for the lion and label the transition events that
+  cause state transitions.
+
+![state2](img/state2.png)
+
+* The VT-100 terminal (console) outputs text to the screen as it
+  receives it over the wire. One exception is that when it receives an
+  ESC character (ASCII 27), it goes into a special mode where it looks
+  for commands to change its behavior. For example:
+
+      ESC[12;45f
+
+  moves the cursor to line 12, column 45.
+
+      ESC[1m
+
+  changes the font to bold.
+
+  * Come up with regexes for the two above sequences. The one to set the
+    cursor position should accept any digits for the row and column. The
+    bold sequence need only accept `1` (and is a trivial regex). (ESC is
+    a single character which can be represented with `\e` in the regex.)
+  
+  ```js
+  const regex = /\x1b\[\d{1,2};\d{1,2}f/;
+  ```
+
+  `\e` does not seem to indicate the `ESC` character. This [Stackoverflow answer](https://stackoverflow.com/a/15084808) suggests `\x1b` does.
+
+```js
+const regex = /\x1b\[m1/;
+```
+
+  * Draw a state machine diagram for a VT-100 that can consume regular
+    character sequences as well as the two above ESC sequences.
+
+![state3](img/state3.png)
+
+*Any input to a given state not shown is assumed to transition to an `ERROR` state, then goes to `RDY` with no further input (`ε` input).*
