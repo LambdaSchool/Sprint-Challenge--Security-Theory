@@ -25,7 +25,7 @@ both `antelope` and `antelopes`.)
   month and day can each be 1-2 digits). This does not need to verify the date
   is correct (e.g 3333-33-33 can match).
 
-  `/^\d{4}\-(0?[1-9]|1[012])\-(0?[1-9]|[12][0-9]|3[01])$/gm` <!--Only works with the first three-->
+  `/^\d{3,4}\-(0?[1-9]|1[012])\-(0?[1-9]|[12][0-9]|3[01])$/gm` <!--Working-->
 
   2000-10-12
   
