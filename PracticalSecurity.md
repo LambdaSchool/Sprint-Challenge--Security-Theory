@@ -19,3 +19,10 @@ The next thing you would do is buy a domain name that looks authentic, I went to
 #### Potential domain names that would fool our target user:
 ![](images/domains.png)
 
+#### So, how can we avoid getting into this mess? 
+
+One easy thing would be to set up 2 factor authentication, which would mean that the hacker could try this phishing attack, but would not have the code sent to you during login, to reset your password. Facebook has their own 2FA system in place, but google (https://www.google.com/landing/2step/) has a 2FA app for all your passwords, which might be better than having a separate system for each site.
+
+One more thing, for really clever/persistent hackers, there are ways they can get your 2FA code by asking you to first enter your *current* password phone number, *then* ask for your phone number (so they can login to the real site with your pw and enter your phone number), *and then* ask for the code sent to your phone. This way, they would have the code sent to them from you directly. 
+
+This is quite difficult to pull off, but its possibe, so always be diligent, and be sure you're interfacing with the real company and not some imposters!
