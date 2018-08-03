@@ -82,4 +82,4 @@ both `antelope` and `antelopes`.)
 >
 > One of your instructors was once hired to implement VT-100 emulation
 > in an app, and they used a state machine to do it.
-![](./images/img_0122.png)
+![](./images/IMG_0122.png)
