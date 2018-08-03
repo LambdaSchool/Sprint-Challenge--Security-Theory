@@ -42,7 +42,7 @@ const regex = /[^b]oat/g;
 
 
 ```js
-const regex = /\d{1,4}-\d{1,2}-\d{1,2}/g
+const regex = /\d{1,4}-\d{1,2}-\d{1,2}/g;
 ```
 
 ## State Machines
