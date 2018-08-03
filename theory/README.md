@@ -58,10 +58,12 @@ both `antelope` and `antelopes`.)
   for commands to change its behavior. For example:
 
       ESC[12;45f
+  `/\e\[\d+;\d+f/`
 
   moves the cursor to line 12, column 45.
 
       ESC[1m
+`/\e\[1m/`
 
   changes the font to bold.
 
