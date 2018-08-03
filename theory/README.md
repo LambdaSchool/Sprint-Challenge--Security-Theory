@@ -57,21 +57,25 @@ both `antelope` and `antelopes`.)
   ESC character (ASCII 27), it goes into a special mode where it looks
   for commands to change its behavior. For example:
 
+
       ESC[12;45f
 
-  moves the cursor to line 12, column 45.
+moves the cursor to line 12, column 45.
+_RESPONSE_ => \e[
 
       ESC[1m
 
-  changes the font to bold.
+changes the font to bold.
 
-  - Come up with regexes for the two above sequences. The one to set the
-    cursor position should accept any digits for the row and column. The
-    bold sequence need only accept `1` (and is a trivial regex). (ESC is
-    a single character which can be represented with `\e` in the regex.)
+- Come up with regexes for the two above sequences. The one to set the
+  cursor position should accept any digits for the row and column. The
+  bold sequence need only accept `1` (and is a trivial regex). (ESC is
+  a single character which can be represented with `\e` in the regex.)
+  _RESPONSE_ move cursor => \e\[\d+;\d+f
+  _RESPONSE_ font to bold => \e\[1m
 
-  - Draw a state machine diagram for a VT-100 that can consume regular
-    character sequences as well as the two above ESC sequences.
+- Draw a state machine diagram for a VT-100 that can consume regular
+  character sequences as well as the two above ESC sequences.
 
 > If you're curious, [here are all the VT-100 escape
 > sequences](http://ascii-table.com/ansi-escape-sequences-vt-100.php).
