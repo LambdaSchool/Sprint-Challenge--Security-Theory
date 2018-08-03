@@ -26,3 +26,5 @@ One easy thing would be to set up 2 factor authentication, which would mean that
 One more thing, for really clever/persistent hackers, there are ways they can get your 2FA code by asking you to first enter your *current* password phone number, *then* ask for your phone number (so they can login to the real site with your pw and enter your phone number), *and then* ask for the code sent to your phone. This way, they would have the code sent to them from you directly. 
 
 This is quite difficult to pull off, but its possibe, so always be diligent, and be sure you're interfacing with the real company and not some imposters!
+
+Check out my medium post: https://medium.com/p/1b3d98567e44/edit
