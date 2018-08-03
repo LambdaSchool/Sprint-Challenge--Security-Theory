@@ -1,0 +1,1 @@
+I changed a few of My accounts to 2fa, as well as used Mnemonic phrases to memorize my passwords. I use Google authenticator whenever available. I never use simple passwords and change them often. I never click on unknown links and am very wary when surfing the web and am very concious of misspelled URL's and phishing attempts.
