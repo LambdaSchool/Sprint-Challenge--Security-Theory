@@ -66,14 +66,10 @@ both `antelope` and `antelopes`.)
   for commands to change its behavior. For example:
 
       ESC[12;45f
-
-      Answer: /\e\[\d+\;\d+f/g
-
+      
   moves the cursor to line 12, column 45.
 
       ESC[1m
-
-      Answer: /\e\[1m?/g
 
   changes the font to bold.
 
@@ -81,6 +77,12 @@ both `antelope` and `antelopes`.)
     cursor position should accept any digits for the row and column. The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
+
+      ESC[12;45f
+      Answer: /\e\[\d+\;\d+/g
+
+      ESC[1m
+      Answer: /\e\[1m?/g
 
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
