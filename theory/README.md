@@ -11,12 +11,17 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+/antelopes?/ matches both words, given the "?" makes the "s" optional
+
 * Regex that matches either of:
 
     goat
     
     moat
 
+/goat|moat/
+
+we can use the single "|" operator which automatically exclude everything else
   but not:
 
     boat
@@ -32,6 +37,8 @@ both `antelope` and `antelopes`.)
   1999-01-20
   
   812-2-10
+
+  **([12]?\d{0,3}-(0[1-9]|1[0-2]|.?[0-9])-(0[1-9]|[12]\d|3[01]|.?[0-9]))**
 
 ## State Machines
 
@@ -61,7 +68,7 @@ both `antelope` and `antelopes`.)
       ESC[1m
 
   changes the font to bold.
-
+  **(\e[)+(([0-9]{1,5});([0-9]{1,5}.?)|(\e[0-9].?))**
   * Come up with regexes for the two above sequences. The one to set the
     cursor position should accept any digits for the row and column. The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
