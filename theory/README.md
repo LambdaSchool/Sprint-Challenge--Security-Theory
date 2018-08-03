@@ -73,8 +73,11 @@ Answer: /\d{1,4}\-\d{1,2}\-\d{1,2}/
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
 
-  - Draw a state machine diagram for a VT-100 that can consume regular
-    character sequences as well as the two above ESC sequences.
+1.  cursorPosition = /\e\[\d+;\d+f/
+2.  boldedFont = /\e\[1m/
+
+- Draw a state machine diagram for a VT-100 that can consume regular
+  character sequences as well as the two above ESC sequences.
 
 > If you're curious, [here are all the VT-100 escape
 > sequences](http://ascii-table.com/ansi-escape-sequences-vt-100.php).
