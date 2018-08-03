@@ -11,7 +11,7 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
-The regex that matches is /antelopes?\s+[\S]+\s[\S]+/g
+Answer: The regex that matches is /antelopes?\s+[\S]+\s[\S]+/g
 
 * Regex that matches either of:
 
