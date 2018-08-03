@@ -91,3 +91,5 @@ const regex = /\x1b\[m1/;
     character sequences as well as the two above ESC sequences.
 
 ![state3](img/state3.png)
+
+*Any input to a given state not shown is assumed to transition to an `ERROR` state, then goes to `RDY` with no further input (`ε` input).*
