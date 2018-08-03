@@ -2,7 +2,7 @@
 
 ## [Improve your practical personal security](security/)
 
-Please see:
+**Please see**:
 
 Part 1 - Understand and Communicate a Threat Model
 
@@ -14,6 +14,6 @@ Part 2 - Practical Security
 
 ## [Theory of Computation](theory/)
 
-Please see:
+**Please see**:
 
 [Responses to `theory/README.md`](theory/ANSWERS.md)
