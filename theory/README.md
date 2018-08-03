@@ -5,13 +5,13 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
-* Single regex that matches either of these: answer: antelope.
+* Single regex that matches either of these: answer: /antelope./g solution: antelopes? rocks? out
 
     antelope rocks out
     
     antelopes rock out
 
-* Regex that matches either of: answer: [^b]
+* Regex that matches either of: answer: /[^b]/g
 
     goat
     
@@ -24,7 +24,7 @@ both `antelope` and `antelopes`.)
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
   is correct (e.g 3333-33-33 can match).
-  answer: (\d{3,4})-?\s?(\d{1,2})-?\s?(\d{2}) or (\d)-?\s?
+  answer: /(\d{3,4})-?\s?(\d{1,2})-?\s?(\d{2})/g or /(\d)-?\s?/g
   2000-10-12
   
   1999-1-20
@@ -66,6 +66,7 @@ both `antelope` and `antelopes`.)
     cursor position should accept any digits for the row and column. The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
+    class solution: /\e(\[\d{2});(\d{2})\w/
 
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
