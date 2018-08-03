@@ -35,3 +35,16 @@ let goatMoatRegex = /(g|m)(oat)/g;
 // 812-2-10
 
 let dateRegex = /(\d{1,4})|(\d{1,2})|(\d{1,2})/g;
+
+
+// The VT-100 terminal (console) outputs text to the screen as it receives it over the wire. One exception is that when it receives an ESC character (ASCII 27), it goes into a special mode where it looks for commands to change its behavior. For example:
+
+// ESC[12;45f
+// moves the cursor to line 12, column 45.
+
+// ESC[1m
+// changes the font to bold.
+
+// Come up with regexes for the two above sequences. The one to set the cursor position should accept any digits for the row and column. The bold sequence need only accept 1 (and is a trivial regex). (ESC is a single character which can be represented with \e in the regex.)
+
+let vt100Regex = "testing"; 
