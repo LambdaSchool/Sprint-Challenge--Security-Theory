@@ -10,7 +10,6 @@ For both of these, turn it in by commiting a Markdown file with your writing to
 your fork of this repository. If you publish elsewhere, please share the link as
 well.
 
-
 # Part 1 - Understand and Communicate a Threat Model
 
 Think of a threat model - a situation with a user (or type of user) and a
