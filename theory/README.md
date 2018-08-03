@@ -5,13 +5,13 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
-* Single regex that matches either of these: answer:/antelope./g
+* Single regex that matches either of these: answer:/.*/g
 
     antelope rocks out
     
     antelopes rock out
 
-* Regex that matches either of: answer:/[^b]/g
+* Regex that matches either of: answer/[gm]oat/g
 
     goat
     
