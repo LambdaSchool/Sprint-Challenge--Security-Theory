@@ -27,8 +27,6 @@ professional email to explain it to a coworker. Please turn in a file
 `ThreatModel.md` with 1-2 paragraphs addressing the above concepts in a concise
 fashion.
 
-### My Thought: 
-
 
 # Part 2 - Practical Security
 
@@ -74,5 +72,3 @@ depend on security through obscurity, so it should be safe to talk about it as
 long as you don't share actual passwords/secrets). As a stretch goal, write a
 blog post about your security setup describing what you’ve learned and tips you
 have for others.
-
-### MY Thought: 
