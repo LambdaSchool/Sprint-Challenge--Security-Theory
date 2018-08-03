@@ -10,7 +10,7 @@ both `antelope` and `antelopes`.)
     antelope rocks out
     
     antelopes rock out
-    regex: (antelope)s? ?(rock)s? out
+    regex: antelopes? rocks? out
 * Regex that matches either of:
 
     goat
