@@ -1,6 +1,6 @@
 # Sprint Challenge: Computer Security and Theory of Computation
 
-## [Improve your practical personal security](security/)
+### [Improve your practical personal security](security/)
 
 **Please see**:
 
@@ -12,7 +12,7 @@ Part 2 - Practical Security
 
 [PracticalSecurity](security/PracticalSecurity.md)
 
-## [Theory of Computation](theory/)
+### [Theory of Computation](theory/)
 
 **Please see**:
 
