@@ -37,7 +37,7 @@ both `antelope` and `antelopes`.)
 
   812-2-10
 
-    ### /(?:\d{1,4})-(?:\d{1,2})-(?:\d{1,2})/g
+    ### /\d{1,4}-\d{1,2}-\d{1,2}/g
 
 ## State Machines
 
