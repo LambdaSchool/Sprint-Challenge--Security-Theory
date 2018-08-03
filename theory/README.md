@@ -67,6 +67,10 @@ both `antelope` and `antelopes`.)
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
 
+    -- regex for bold - \e[1m
+
+    -- regex for cursor - \e[1-9];[1-9]
+
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
 
