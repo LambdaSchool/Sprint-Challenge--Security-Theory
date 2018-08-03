@@ -58,11 +58,11 @@ regex = /^\d{1,4}\-\d{1,2}\-\d{1,2}/gm
   for commands to change its behavior. For example:
 
       ESC[12;45f
-
+  regex = /^\e\[\d{1,}\;\d{1,}\D/g
   moves the cursor to line 12, column 45.
 
       ESC[1m
-
+  regex = /^\e\[1\D/g
   changes the font to bold.
 
   * Come up with regexes for the two above sequences. The one to set the
