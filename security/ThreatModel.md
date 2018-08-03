@@ -3,9 +3,9 @@
 Hey Mark,
 
 Thanks for reaching out about improving our security here at (E)corp. I've create a simple threat model so we can
-better understand they ways we could be attacked and things we can do to mitigate those problems.
+better understand the ways we could be attacked and things we can do to mitigate those problems.
 
-#### Attack surface:
+#### Attack surface (what tech/situation exposes them, e.g. systems they use, places they go):
 
 - All employees currently have access to client personal files with include name, address, payment info, and relevant contacts.
 - Our network can be accessed without security credentials from employee personal computers or ICD(internet connected devices)
