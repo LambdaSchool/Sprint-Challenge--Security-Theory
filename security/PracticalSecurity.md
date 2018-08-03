@@ -22,3 +22,10 @@ What it ngives you is protection from normal outside attacks because token based
 is very hard to get around.
 
 
+
+
+#### For myself:
+
+I'm moving to ubuntu using their keyring as PW manager combined with a fast lock whenever I stop using the PC in order to 
+have my passwords available all the time and still having them encrypted. 
+Also I have activated 2FA for my most important accounts everywhere.
