@@ -73,7 +73,7 @@ both `antelope` and `antelopes`.)
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
 
-  # Regex for moving cursor: /\e\[[0-9]+;[0-9]+/
+  # Regex for moving cursor: /\e\[[0-9]+;[0-9]+f/
   # Regex for bold: /\e\[1m/
 
   * Draw a state machine diagram for a VT-100 that can consume regular
