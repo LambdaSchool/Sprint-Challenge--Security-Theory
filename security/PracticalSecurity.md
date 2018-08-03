@@ -1,0 +1,3 @@
+I decided to set up a password manager on my phone to keep all my important log in information kept secure. The system goes by a memory of certain pictures you've been shown. I then wrote the recovery code on a slip of paper kept in a secure place in my home. 
+
+I also decided to go through my phone and pictures to make sure there aren't any possible personal information left in my photos or screenshots. I also went through my text messages and did the same or deleted any conversations that could have too much personal detail. 
