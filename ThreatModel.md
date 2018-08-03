@@ -27,6 +27,6 @@ professional email to explain it to a coworker. Please turn in a file
 `ThreatModel.md` with 1-2 paragraphs addressing the above concepts in a concise
 fashion.
 
-As consumers we trust businesses and corporations with keepin gour information safe and out of the hands of
-the bad guys.  Unfortunately we we've seen and heard, time and time again consumers information have been 
-accessed through security breaches.
+As consumers we trust businesses and corporations with keepin gour information safe and out of the hands of the 'bad guys'.  Unfortunately we we've seen and heard,time and time again consumers information have been accessed through security breaches.  
+
+One way hackers can get our information is if the companies that hold our passwords aren't encrypted.  Meaning our passwords are in the database of these companies in the form that we typed them in.  They haven't been changed so hackers can not get figure them out.  To avoid this scenario in the future our passwords can simply by encrypted.
