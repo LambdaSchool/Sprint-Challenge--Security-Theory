@@ -47,4 +47,6 @@ let dateRegex = /(\d{1,4})|(\d{1,2})|(\d{1,2})/g;
 
 // Come up with regexes for the two above sequences. The one to set the cursor position should accept any digits for the row and column. The bold sequence need only accept 1 (and is a trivial regex). (ESC is a single character which can be represented with \e in the regex.)
 
-let vt100Regex = "testing"; 
+let vt100Regex = /(\e)(\d+)|(;*(\d+))/g; 
+
+
