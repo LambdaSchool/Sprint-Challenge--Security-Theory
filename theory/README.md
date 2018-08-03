@@ -11,15 +11,19 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+    myRegx = /antelopes? rocks? out/g
+
 * Regex that matches either of:
 
     goat
     
     moat
 
-  but not:
+* but not:
 
     boat
+
+    myRegx = /[gm]oat/g
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -33,6 +37,8 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
+  myRegx = /(\d\d?\d?\d?)-(\d\d?)-(\d\d?)/g
+
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
@@ -45,8 +51,9 @@ both `antelope` and `antelopes`.)
   Remember the ε transition can be used to move between states without
   consuming input. 
 
-* A lion can be sleeping, eating, hunting, or preening. Draw a state
-  machine diagram for the lion and label the transition events that
+* A lion can be sleeping, eating, hunting, or preening. 
+  Draw a state machine diagram for the lion 
+  and label the transition events that
   cause state transitions.
 
 * The VT-100 terminal (console) outputs text to the screen as it
@@ -66,6 +73,13 @@ both `antelope` and `antelopes`.)
     cursor position should accept any digits for the row and column. The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
+
+    /(\e\[)(\d+;)*(\d+)([mf])/g   
+    *this is the correct one using the \e for the ESC
+    
+    /(ESC\[)(\d+;)*(\d+)([mf])/g  
+    *this is because on https://regexr.com 
+    the text did not match with \e
 
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
