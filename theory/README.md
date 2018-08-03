@@ -61,7 +61,7 @@ both `antelope` and `antelopes`.)
 
   moves the cursor to line 12, column 45.
 
-      ESC[1m
+      ESC[1m 
 
   changes the font to bold.
 
