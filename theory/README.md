@@ -41,6 +41,10 @@ ANSWER: antelope.
 
 ## State Machines
 
+<!-- Drawing of state Machine
+![cc25c2f1-f09e-4a3b-9fb8-e37c28a26d0e](https://user-images.githubusercontent.com/35740349/43657141-b26edec0-9709-11e8-911e-2e5091653235.jpeg)
+ -->
+
 > A useful tool for drawing state machines is [Evan's FSM
 > Designer](http://madebyevan.com/fsm/).
 
