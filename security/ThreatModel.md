@@ -30,5 +30,3 @@ better understand the ways we could be attacked and things we can do to mitigate
 - Restrict access to network to onsite only
 
 - Update and patch server on a continues bases.
-
-

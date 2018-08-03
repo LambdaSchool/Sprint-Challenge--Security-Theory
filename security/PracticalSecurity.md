@@ -23,9 +23,6 @@ now you only have to remember and create one strong password.
 There are tons of other way and many more steps you can take you secure your accounts but at a minimum you
 should do the things mentioned above.
 
-
 #### Personal Changes
 
 I started using a password managers and I'm moving my more vulnerable accounts over first. I've moved to two step authentication to all my accounts that have them available.
-
-
