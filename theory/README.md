@@ -10,7 +10,7 @@ both `antelope` and `antelopes`.)
     antelope rocks out
     
     antelopes rock out
-
+    regex: (antelope)s? ?(rock)s? out
 * Regex that matches either of:
 
     goat
@@ -20,6 +20,8 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
+    regex: [gm]oat
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -32,6 +34,8 @@ both `antelope` and `antelopes`.)
   1999-01-20
   
   812-2-10
+
+  regex: \d{1,4}-\d{1,2}-\d{1,2}
 
 ## State Machines
 
@@ -48,6 +52,8 @@ both `antelope` and `antelopes`.)
 * A lion can be sleeping, eating, hunting, or preening. Draw a state
   machine diagram for the lion and label the transition events that
   cause state transitions.
+
+  Answer in lionfsm.png
 
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an

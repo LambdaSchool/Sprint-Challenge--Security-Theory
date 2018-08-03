@@ -1,0 +1,5 @@
+My current security setup includes using 2FA on almost all login websites of importance. However I have somewhat simillar passwords for each one. What I have done is add different passwords to all of them, and have a password manager of an offline laptop I have. I also have many cryptocurrency exchange accounts and I have to have secure logins for those aswell. For that I am using 2FA and coldstorage for all the privatekeys/passphrases. 
+
+The attack vectors for my setup will be finding loopholes in my apps/websites, through sql injections etc. Besides this, I could have identity theft where criminal tries to imitate me and try to find information of me and sell it off to these crypto exchanges to make them think its me. Another attack vector could be network that I am on (public or secure wifi). 
+
+The threats could include criminal organizations/ competitors/ extortion etc. 
