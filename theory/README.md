@@ -11,15 +11,21 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+/antelopes? rocks? out/gm
+
 * Regex that matches either of:
 
     goat
     
     moat
 
+  
+
   but not:
 
     boat
+
+/(g|m)oat/gm
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -32,6 +38,8 @@ both `antelope` and `antelopes`.)
   1999-01-20
   
   812-2-10
+
+/[0-9]{1,4}-[0-9]{1,2}-[0-9]{1,2}/gm
 
 ## State Machines
 
