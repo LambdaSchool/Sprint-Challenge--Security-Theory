@@ -42,7 +42,7 @@ both `antelope` and `antelopes`.)
   812-2-10
 
 ```javascript
-/\d\d?\d?\d?\-\d\d?\-\d\d?/g
+/\d{1,4}\-\d{1,2}\-\d{1,2}/g
 ```
 
 ## State Machines
@@ -68,9 +68,17 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
+```javascript
+/\e\[\d+\;\d+/g
+```
+
   moves the cursor to line 12, column 45.
 
       ESC[1m
+
+```javascript
+/\e\[1m?/g
+```
 
   changes the font to bold.
 
