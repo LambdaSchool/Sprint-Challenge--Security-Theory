@@ -1,3 +1,4 @@
+All answers are marked with **
 # Theory of Computation Sprint Challenge
 
 ## Regular Expressions
@@ -10,7 +11,8 @@ both `antelope` and `antelopes`.)
     antelope rocks out
     
     antelopes rock out
-    
+
+    **/antelopes?/
 
 * Regex that matches either of:
 
@@ -21,7 +23,9 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
-
+    
+    **/goat|moat/
+    
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
   is correct (e.g 3333-33-33 can match).
