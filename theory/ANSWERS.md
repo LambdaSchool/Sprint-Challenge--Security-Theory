@@ -1,23 +1,18 @@
 # Theory of Computation Sprint Challenge
 
----
-
-**My responses can be found here:**
-
-[Responses to `theory/README.md`](ANSWERS.md)
-
----
-
 ## Regular Expressions
 
-Find regexes that match the following. (e.g. find a single regex that matches
-both `antelope` and `antelopes`.)
+Find regexes that match the following.
 
 * Single regex that matches either of these:
 
     antelope rocks out
     
     antelopes rock out
+
+```js
+const regex = /antelopes? rocks? out/g;
+```
 
 * Regex that matches either of:
 
@@ -28,6 +23,10 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
+```js
+const regex = /[^b]oat/g;
+```
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -41,21 +40,24 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
-## State Machines
 
-> A useful tool for drawing state machines is [Evan's FSM
-> Designer](http://madebyevan.com/fsm/).
+```js
+const regex = /\d{1,4}-\d{1,2}-\d{1,2}/g;
+```
+
+## State Machines
 
 * Draw a state machine that corresponds to the following regex:
 
       ab*c+d?[ef]
 
-  Remember the ε transition can be used to move between states without
-  consuming input. 
+![state1](img/state1.png)
 
 * A lion can be sleeping, eating, hunting, or preening. Draw a state
   machine diagram for the lion and label the transition events that
   cause state transitions.
+
+![state2](img/state2.png)
 
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
@@ -74,16 +76,20 @@ both `antelope` and `antelopes`.)
     cursor position should accept any digits for the row and column. The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
+  
+  ```js
+  const regex = /\x1b\[\d{1,2};\d{1,2}f/;
+  ```
+
+  `\e` does not seem to indicate the `ESC` character. This [Stackoverflow answer](https://stackoverflow.com/a/15084808) suggests `\x1b` does.
+
+```js
+const regex = /\x1b\[m1/;
+```
 
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
 
-> If you're curious, [here are all the VT-100 escape
-> sequences](http://ascii-table.com/ansi-escape-sequences-vt-100.php).
-> More common these days is a superset of VT-100 called [ANSI escape
-> sequences](http://ascii-table.com/ansi-escape-sequences.php). If
-> you've ever put colors and stuff in your Bash prompt, this is what you
-> used to do it.
->
-> One of your instructors was once hired to implement VT-100 emulation
-> in an app, and they used a state machine to do it.
+![state3](img/state3.png)
+
+*Any input to a given state not shown is assumed to transition to an `ERROR` state, then goes to `RDY` with no further input (`ε` input).*

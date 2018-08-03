@@ -1,3 +1,15 @@
+My responses can be found here:
+
+* Part 1 - Understand and Communicate a Threat Model
+
+[ThreatModel](ThreatModel.md)
+
+* Part 2 - Practical Security
+
+[PracticalSecurity](PracticalSecurity.md)
+
+---
+
 The security challenge is a little different - you won't be writing code.
 Instead, you'll be thinking about security, practicing your professional
 communication skills by writing about a threat model as if you were emailing a
