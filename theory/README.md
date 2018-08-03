@@ -61,7 +61,7 @@ both `antelope` and `antelopes`.)
   for commands to change its behavior. For example:
 
       ESC[12;45f
-      /\e\[\d+\;\d+/g
+      /\e\[\d+\;\w+/g
 
   moves the cursor to line 12, column 45.
 
