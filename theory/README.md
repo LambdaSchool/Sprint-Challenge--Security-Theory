@@ -25,7 +25,7 @@ both `antelope` and `antelopes`.)
     boat
     
     **/goat|moat/
-    
+
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
   is correct (e.g 3333-33-33 can match).
@@ -37,6 +37,9 @@ both `antelope` and `antelopes`.)
   1999-01-20
   
   812-2-10
+
+  ** (\d{0,3}?-(0[1-9]|1[1-9]|.?[0-9])-[1-9]|[12]\d|.?[0-9]) This regex is currently not caputuring all the 
+  required groups therefore return incorrectly. Well work on after if there is time remaining.
 
 ## State Machines
 
