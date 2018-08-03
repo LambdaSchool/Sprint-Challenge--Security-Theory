@@ -5,11 +5,17 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
+      regex: /antelopes?/g
+
+
 * Single regex that matches either of these:
 
     antelope rocks out
     
     antelopes rock out
+
+      regex: /antelopes?\srocks?\sout/g
+
 
 * Regex that matches either of:
 
@@ -20,6 +26,9 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
+      regex: /[^b]oat/g
+
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -33,6 +42,9 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
+      regex: /\d{1,4}(-\d{1,2}){2}/g
+
+
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
@@ -43,11 +55,15 @@ both `antelope` and `antelopes`.)
       ab*c+d?[ef]
 
   Remember the ε transition can be used to move between states without
-  consuming input. 
+  consuming input.
+
+![fsm1](https://user-images.githubusercontent.com/22038655/43655100-a08e2460-971b-11e8-9664-2df42a704641.png)  
 
 * A lion can be sleeping, eating, hunting, or preening. Draw a state
   machine diagram for the lion and label the transition events that
   cause state transitions.
+
+![fsm2](https://user-images.githubusercontent.com/22038655/43655749-e8d7983a-971d-11e8-8537-e2048b398a3f.png)
 
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
@@ -56,9 +72,13 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
+        regex: /\e\[\d{1,2};\d{1,2}f/g
+
   moves the cursor to line 12, column 45.
 
       ESC[1m
+
+        regex: /\e\[1m/g
 
   changes the font to bold.
 
@@ -69,6 +89,8 @@ both `antelope` and `antelopes`.)
 
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
+
+![fsm3](https://user-images.githubusercontent.com/22038655/43657233-31cba568-9723-11e8-95a6-678e47f36cc9.png)
 
 > If you're curious, [here are all the VT-100 escape
 > sequences](http://ascii-table.com/ansi-escape-sequences-vt-100.php).
