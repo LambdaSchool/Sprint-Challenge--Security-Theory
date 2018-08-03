@@ -1,0 +1,1 @@
+To practice the security practice, I installed keepass security manager. I set up a master password that manages all my passwords. I tend to reuse passwords and it is not a good practice and this is my first time setting up a password manager and I gave all my online accounts a new password and saved it in the new password managers. I followed a good security practice
