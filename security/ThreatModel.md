@@ -11,8 +11,4 @@ All school staff should be educated about phishing scams as emails are our main 
 
 Please keep the aforementioned items in mind as we all prepare to welcome our students and education staff.
 
-Sincerely,
-
-Iqra Javed
-
-Cyber Security Engineer   
+Sincerely,  \nIqra Javed  \nCyber Security Engineer   
