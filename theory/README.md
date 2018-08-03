@@ -12,7 +12,7 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
-    **/antelopes?/
+    ** /antelopes?\srocks?\sout
 
 * Regex that matches either of:
 
@@ -20,11 +20,11 @@ both `antelope` and `antelopes`.)
     
     moat
 
-  but not:
+* but not:
 
     boat
     
-    **/goat|moat/
+    ** /goat|moat/
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -38,8 +38,7 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
-  ** (\d{0,3}?-(0[1-9]|1[1-9]|.?[0-9])-[1-9]|[12]\d|.?[0-9]) This regex is currently not caputuring all the 
-  required groups therefore return incorrectly. Well work on after if there is time remaining.
+  ** /\d{1,4}\-\d{1,2}\-\d{1,2}/
 
 ## State Machines
 
