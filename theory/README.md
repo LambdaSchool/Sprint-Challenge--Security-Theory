@@ -11,8 +11,8 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
-Answer 1: /^\D{8,9}\s\D{4,5}\s\D{3}/gm 
-Answer 2: /antelopes?\srocks?\sout/g
+      Answer 1: /^\D{8,9}\s\D{4,5}\s\D{3}/gm 
+      Answer 2: /antelopes?\srocks?\sout/g
 
 * Regex that matches either of:
 
@@ -24,7 +24,7 @@ Answer 2: /antelopes?\srocks?\sout/g
 
     boat
 
-Answer: /(\bg|\bm)oat/g
+      Answer: /(\bg|\bm)oat/g
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -38,7 +38,7 @@ Answer: /(\bg|\bm)oat/g
   
   812-2-10
 
-Answer: /(\d{4})-?(\d{1,2})-?(\d{2})/g
+      Answer: /(\d{4})-?(\d{1,2})-?(\d{2})/g
 
 ## State Machines
 
@@ -52,9 +52,13 @@ Answer: /(\d{4})-?(\d{1,2})-?(\d{2})/g
   Remember the ε transition can be used to move between states without
   consuming input. 
 
+(Finite State Machine saved in the img folder.)
+
 * A lion can be sleeping, eating, hunting, or preening. Draw a state
   machine diagram for the lion and label the transition events that
   cause state transitions.
+
+(Finite State Machine saved in the img folder.)
 
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
@@ -63,9 +67,13 @@ Answer: /(\d{4})-?(\d{1,2})-?(\d{2})/g
 
       ESC[12;45f
 
+      Answer: /\e\[\d+\;\d+/g
+
   moves the cursor to line 12, column 45.
 
       ESC[1m
+
+      Answer: /\e\[1m?/g
 
   changes the font to bold.
 
@@ -86,3 +94,4 @@ Answer: /(\d{4})-?(\d{1,2})-?(\d{2})/g
 >
 > One of your instructors was once hired to implement VT-100 emulation
 > in an app, and they used a state machine to do it.
+
