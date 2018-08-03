@@ -1,0 +1,3 @@
+Part 2. Practical Security
+
+I have never realized before how vulnerable I was by having only 1 password for all of my accounts(email, social media, banking, etc.) To mitigate cyber threats, I plan to start using password managers such as KeePass. I also implemented 2 factor authorization on my email accounts which are mainly yahoo and gmail. I also change my passwords to be passphrases. I realized that indeed there is strength in length. Finally, I plan to learn 'sandboxed browsing'. I did not have enough time due to the time constraint here during the Sprint Challenge. Definitely I will be learning and researching on this.
