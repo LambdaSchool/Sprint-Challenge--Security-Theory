@@ -1,0 +1,1 @@
+started using password manager, using 2fa for almost everything! 
