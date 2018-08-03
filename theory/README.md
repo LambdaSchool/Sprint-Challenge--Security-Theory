@@ -67,7 +67,7 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
-      Answer: /\e\[\d+\;\d+/g
+      Answer: /\e\[\d+\;\d+f/g
 
   moves the cursor to line 12, column 45.
 

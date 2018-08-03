@@ -16,7 +16,7 @@ One day, he received the shock of his life: Lambda School kicked him out of the 
 
 The Threat Model of the story looks like this:
 
-Attack surface -- Mike shares a room with several people. One or more of them may have a motive to harm him or his reputation. For instance, one of them may be a student of a rival coding school. His uses the usual technological tools for a coding student -- laptop, Slack, Zoom, etc., and he doesn't log out of them, which makes it super easy for hackers to hack them.
+Attack surface -- Mike shares a room with several people. One or more of them may have a motive to harm him or his reputation. For instance, one of them may be a student of a rival coding school. He uses the usual technological tools for a coding student -- laptop, Slack, Zoom, etc., and he doesn't log out of them, which makes it super easy for hackers to hack them.
 
 Adversaries -- As mentioned, a friend or acquaintance may be a student from a rival coding bootcamp, or maybe somebody simply has a beef with him, etc.
 
