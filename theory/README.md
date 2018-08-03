@@ -38,7 +38,7 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
-      Answer: /(\d{4})-?(\d{1,2})-?(\d{2})/g
+      Answer: /(\d{1,4})-?(\d{1,2})-?(\d{2})/g
 
 ## State Machines
 
@@ -79,7 +79,7 @@ both `antelope` and `antelopes`.)
     a single character which can be represented with `\e` in the regex.)
 
       ESC[12;45f
-      Answer: /\e\[\d+\;\d+/g
+      Answer: /\e\[\d+\;\d+\w/g
 
       ESC[1m
       Answer: /\e\[1m?/g
