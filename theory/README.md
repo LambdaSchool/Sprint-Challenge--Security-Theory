@@ -5,8 +5,7 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
-* Single regex that matches either of these: answer: /antelope./g solution: antelopes? rocks? out
-
+* Single regex that matches either of these: answer: /antelopes?\srocks?\sout/g
     antelope rocks out
     
     antelopes rock out
@@ -63,10 +62,13 @@ both `antelope` and `antelopes`.)
   changes the font to bold.
 
   * Come up with regexes for the two above sequences. The one to set the
-    cursor position should accept any digits for the row and column. The
+    cursor position should accept any digits for the row and column. 
+          class solution: \e\[\d+;\d+f
+          
+    The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
-    class solution: /\e(\[\d{2});(\d{2})\w/
+          class solution: \e\[1m
 
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
