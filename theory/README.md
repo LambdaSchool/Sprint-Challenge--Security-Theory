@@ -62,11 +62,13 @@ Answer: /\d{1,4}-\d{1,2}-\d{1,2}/g
 
       ESC[12;45f 
       
-      Regex Answer: ESC\[\d{2};\d{2}f
+      Regex Answer: /ESC\[\d{2};\d{2}f/g
 
   moves the cursor to line 12, column 45.
 
       ESC[1m
+      
+      Regex Answer: /ESC\[1m/g
 
   changes the font to bold.
 
