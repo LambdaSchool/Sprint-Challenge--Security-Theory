@@ -62,7 +62,7 @@ Answer: /\d{1,4}-\d{1,2}-\d{1,2}/g
 
       ESC[12;45f 
       
-      Regex Answer: /ESC\[\d{2};\d{2}f/g
+      Regex Answer: /ESC\[\d{1,};\d{1,}f/g
 
   moves the cursor to line 12, column 45.
 
