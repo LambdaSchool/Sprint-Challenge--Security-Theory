@@ -60,7 +60,9 @@ Answer: /\d{1,4}-\d{1,2}-\d{1,2}/g
   ESC character (ASCII 27), it goes into a special mode where it looks
   for commands to change its behavior. For example:
 
-      ESC[12;45f
+      ESC[12;45f 
+      
+      Regex Answer: ESC\[\d{2};\d{2}f
 
   moves the cursor to line 12, column 45.
 
