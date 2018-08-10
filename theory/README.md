@@ -64,7 +64,7 @@ both `antelope` and `antelopes`.)
 
       /\e\[\d+;\d+f?/g
 
-      /\e\[\d+;\d+/g
+      /\e\[\d+;\d+/g  --> "The one to set the cursor position should accept any digits for the row and column."
 
   moves the cursor to line 12, column 45.
 
@@ -72,7 +72,7 @@ both `antelope` and `antelopes`.)
 
       /\e\[1?m?/g
       
-      /\e\[1?/g
+      /\e\[1?/g   --> "The bold sequence need only accept `1` (and is a trivial regex)."
 
   changes the font to bold.
 
