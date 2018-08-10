@@ -12,10 +12,11 @@ both `antelope` and `antelopes`.)
     antelopes rock out
 
 Answer /([aro]\w+)/g
-
+Answer 2 /antelopes?\srocks?\sout/g
 * Regex that matches either of:
 
 Answer /([gm]\w+)/g
+Answer 2 /(?:g|m)oat/g 
     goat
     
     moat
@@ -37,6 +38,8 @@ Answer /([gm]\w+)/g
   812-2-10
 
 /(?:\d{1,4})-(?:\d{1,2})-(?:\d{1,2})/g
+Answer 2/\d{1,4}-\d{1,2}-\d{1,2}/g
+
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
@@ -71,6 +74,9 @@ Answer: https://i.imgur.com/nkFPgNt.png
 
   changes the font to bold.
 
+  Answer /\e[\d+;\d+f/g
+  Answer /\e[1m/g
+  
   * Come up with regexes for the two above sequences. The one to set the
     cursor position should accept any digits for the row and column. The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
