@@ -1,3 +1,8 @@
+To whom it may concern,
+
+Hi, I am sercurities analyst and i was going over some of your the threats that and risks.I have some ideas on how we can make your website more secure.cross-site scripting (XSS) attacks are another common threat and can be managed. one way is handy tool that can help protect your site from XSS is Content Security Policy (CSP). another way is  Make sure your passwords are secure.Make the effort to figure out a truly secure password there are many site that you can use to generate and save your passwords.Lock down your directory and file permissions. finallay i am here to help with any questions you may have.
+
+
 Model One
 
 - Attack surface (what tech/situation exposes them, e.g. systems they use, places they go)
