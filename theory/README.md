@@ -74,9 +74,9 @@ Answer: https://i.imgur.com/nkFPgNt.png
 
   changes the font to bold.
 
-  Answer /\e[\d+;\d+f/g
+  Answer /\e[\d+;\d+f/g 
   Answer /\e[1m/g
-  
+
   * Come up with regexes for the two above sequences. The one to set the
     cursor position should accept any digits for the row and column. The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
@@ -84,6 +84,8 @@ Answer: https://i.imgur.com/nkFPgNt.png
 
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
+
+https://i.imgur.com/PIssdzQ.png
 
 > If you're curious, [here are all the VT-100 escape
 > sequences](http://ascii-table.com/ansi-escape-sequences-vt-100.php).
