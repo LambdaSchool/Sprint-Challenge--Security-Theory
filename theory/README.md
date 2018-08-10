@@ -5,7 +5,7 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
-* Single regex that matches either of these: `/([antelopesr])\w+/g` <!--This doesn't take spaces into account-->
+* Single regex that matches either of these: `/antelopes?\srocks?\sout/g` <!--WORKING-->
 
     antelope rocks out
     

@@ -1,3 +1,6 @@
 Tim is the CEO of a new tech company that is developing a Fitness app. Through it, users can engage in fitness competitions for money. After a fight at their fancy office, Tim's business partner Josh leaves the company with a vendetta against Tim. Because Tim has lost his business partner(and the money he brought with him), he panics and believes Stripe is now out of what the company can afford, so he pays a developer he hired on craigslist to handle credit card charges, instead of using Stripe's enterprise package. 
 
 In this scenario, the attack surface would be the fitness app(through the payments), as well as any sensative information that could be lying around the office. Adversaries include Josh, potentially the craigslist dev(it can be assumed he was not properly vetted). Since Josh still has access to the office, he may choose to go there and sabotage/destroy the physical computers on which the development has taken place. The CL dev could have written a keylogger or have written code that is vulnerable to be keylogged. In this situation, there are many steps that can be taken to mitigate potential damage. First, if finances are a problem, cut costs on useless things, like a fancy office. This mitigates Josh's access to vulnerable items. Money saved could go into using a more secure API, such as Stripe. 
+
+
+MBP REDO:
