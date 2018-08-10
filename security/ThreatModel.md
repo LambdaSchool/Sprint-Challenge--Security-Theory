@@ -6,8 +6,7 @@ Mitigations (what can be done to reduce the risk, e.g. 2-factor auth, encryption
 
 to whom it may concern: 
 
-    This is the assesment for counteracting an attack on the company and its resources. The attack surface situation exposes
-    systems you use and places you go.
+    This is the assesment for counteracting an attack on the company and its resources. The attack surface situation exposes systems you use and places you go.
 
     Your adversaries are interested in compromising your security.
 

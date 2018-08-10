@@ -7,7 +7,7 @@ both `antelope` and `antelopes`.)
 
 * Single regex that matches either of these:
 
-ANSWER: antelope.
+ANSWER: antelope.+
 
     antelope rocks out
     
@@ -15,7 +15,7 @@ ANSWER: antelope.
 
 * Regex that matches either of:
 
-  ANSWER: [^b]
+  ANSWER: [^b]oat
 
     goat
     
