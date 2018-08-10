@@ -5,13 +5,17 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
-* Single regex that matches either of these:
+* Single regex that matches either of these: 
+
+/antelopes?\srocks?\sout/g
 
     antelope rocks out
     
     antelopes rock out
 
-* Regex that matches either of:
+* Regex that matches either of:  
+
+/(\bg|\bm)oat/g
 
     goat
     
@@ -24,6 +28,8 @@ both `antelope` and `antelopes`.)
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
   is correct (e.g 3333-33-33 can match).
+
+/(\d{1,4})-?(\d{1,2})-?(\d{1,2})/g
 
   2000-10-12
   
@@ -56,9 +62,17 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
+      /\e\[\d+;\d+f?/g
+
+      /\e\[\d+;\d+/g  --> "The one to set the cursor position should accept any digits for the row and column."
+
   moves the cursor to line 12, column 45.
 
       ESC[1m
+
+      /\e\[1?m?/g
+      
+      /\e\[1?/g   --> "The bold sequence need only accept `1` (and is a trivial regex)."
 
   changes the font to bold.
 
