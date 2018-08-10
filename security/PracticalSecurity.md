@@ -2,3 +2,7 @@ For the practical security Section, I chose not to make a password manager, beca
 
 
 MBP REDO:
+I have been using Blizzard's two-step authentication for 10 years, since it launched in 2008. To the best of my knowledge, their original implmentation for World of Warcraft(what I was using it for in 2008) was, to the best of my knowledge, the first popular use of two-step authentication. It was originally done with a dedicated device similar to a beeper, but a few years later with the rise of smartphones, an app was released, and is still available on App Stores today, covering all Blizzard games.
+
+Here's a short article from 2008 about the launch of Two-Step Auth:
+https://www.zdnet.com/article/blizzard-introducing-two-factor-authentication-for-wow-gamers/
