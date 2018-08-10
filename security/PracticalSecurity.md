@@ -1,0 +1,1 @@
+I access to my email and online database only from my laptop and cell phone. Therefore, I made only authorized devices with pre-registered MAC address can access my database and email. Two factor auth is also in use. To ensure the security of my devices, I activate biometric identification on both. I installed Oracle VM to use as a sandbox.
