@@ -5,13 +5,13 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
-* Single regex that matches either of these:
+* Single regex that matches either of these: answer:/.*/g
 
     antelope rocks out
     
     antelopes rock out
 
-* Regex that matches either of:
+* Regex that matches either of: answer/[gm]oat/g
 
     goat
     
@@ -23,7 +23,7 @@ both `antelope` and `antelopes`.)
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
-  is correct (e.g 3333-33-33 can match).
+  is correct (e.g 3333-33-33 can match).  answer :/(\d)-?\s?/g
 
   2000-10-12
   
@@ -36,7 +36,10 @@ both `antelope` and `antelopes`.)
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
-> Designer](http://madebyevan.com/fsm/).
+> Designer]().
+
+
+
 
 * Draw a state machine that corresponds to the following regex:
 
@@ -78,4 +81,7 @@ both `antelope` and `antelopes`.)
 > used to do it.
 >
 > One of your instructors was once hired to implement VT-100 emulation
-> in an app, and they used a state machine to do it.
+> in an app, and they used a state machine 
+
+
+
