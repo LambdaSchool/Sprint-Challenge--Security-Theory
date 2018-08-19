@@ -11,6 +11,9 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+      Answer 1: /^\D{8,9}\s\D{4,5}\s\D{3}/gm 
+      Answer 2: /antelopes?\srocks?\sout/g
+
 * Regex that matches either of:
 
     goat
@@ -20,6 +23,8 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
+      Answer: /(\bg|\bm)oat/g
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -33,6 +38,8 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
+      Answer: /(\d{1,4})-?(\d{1,2})-?(\d{2})/g
+
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
@@ -45,9 +52,13 @@ both `antelope` and `antelopes`.)
   Remember the ε transition can be used to move between states without
   consuming input. 
 
+(Finite State Machine saved in the img folder.)
+
 * A lion can be sleeping, eating, hunting, or preening. Draw a state
   machine diagram for the lion and label the transition events that
   cause state transitions.
+
+(Finite State Machine saved in the img folder.)
 
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
@@ -55,7 +66,7 @@ both `antelope` and `antelopes`.)
   for commands to change its behavior. For example:
 
       ESC[12;45f
-
+      
   moves the cursor to line 12, column 45.
 
       ESC[1m
@@ -66,6 +77,12 @@ both `antelope` and `antelopes`.)
     cursor position should accept any digits for the row and column. The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
+
+      ESC[12;45f
+      Answer: /\e\[\d+\;\d+\w/g
+
+      ESC[1m
+      Answer: /\e\[1m?/g
 
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
@@ -79,3 +96,4 @@ both `antelope` and `antelopes`.)
 >
 > One of your instructors was once hired to implement VT-100 emulation
 > in an app, and they used a state machine to do it.
+
