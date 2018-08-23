@@ -7,11 +7,15 @@ both `antelope` and `antelopes`.)
 
 * Single regex that matches either of these:
 
+ANSWER: antelope.+
+
     antelope rocks out
     
     antelopes rock out
 
 * Regex that matches either of:
+
+  ANSWER: [^b]oat
 
     goat
     
@@ -25,6 +29,8 @@ both `antelope` and `antelopes`.)
   month and day can each be 1-2 digits). This does not need to verify the date
   is correct (e.g 3333-33-33 can match).
 
+  ANSWER: (\d)-?\s?
+
   2000-10-12
   
   1999-1-20
@@ -34,6 +40,10 @@ both `antelope` and `antelopes`.)
   812-2-10
 
 ## State Machines
+
+<!-- Drawing of state Machine
+![cc25c2f1-f09e-4a3b-9fb8-e37c28a26d0e](https://user-images.githubusercontent.com/35740349/43657141-b26edec0-9709-11e8-911e-2e5091653235.jpeg)
+ -->
 
 > A useful tool for drawing state machines is [Evan's FSM
 > Designer](http://madebyevan.com/fsm/).
