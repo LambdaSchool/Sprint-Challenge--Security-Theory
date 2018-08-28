@@ -1,5 +1,12 @@
 To whom it may concern:
 
-Our user is social medaia particpant and activiely particiaptes on social media apps. Our user has the same password for all emails and banking info. All info on our user is saved in their phone in the notes app for their passwords and banking username. They have their email address posted on social media and telephone number as well. Because our user does not change passwords he/she are exposed to great risk. People who may want their identity or access to social media accounts and emaial posed a great threat to out user. Also, becuase our user stores their information ont their phone in a notes and have the same password for all apps and email, their information can easily be accessed. 
+This email is to inform you of the possible scenarios of vulnability of attack on out client due to personal use of information on the web. Although the threats of attack can appear to be slim to none, nevertheless, this can be far from the fact. Due to our client same email and password for all applications and account info for user accounts, this pose as the perfect candidate for an attack. Below is the identificantion if possilble attacks with solution to mitagate the attack spots.
 
-Our user maybe compromised by password theft or by simply misplacing their phone. Or just by a random indvidual or someone she knows, that can easily look up their information by looking over their sholder. What can be done to mitigate our clients identity is to first recommend a password manager or to use third party passwword manangers like LastPass and etc. There are even some password managers that only require email and no password.
+
+Attack surface - same password for all applications and websites. Because the person post thier location they are exposed to all types of threats. 
+
+Adversaries - identity thefts, cirminal, scam mail and telephone calls 
+
+Attack Vectors - password and geo-location 
+
+Mitigations - long healthy password phrase. do not post location. use email only password auth apps. 
