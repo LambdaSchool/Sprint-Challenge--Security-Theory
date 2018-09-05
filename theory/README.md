@@ -7,11 +7,15 @@ both `antelope` and `antelopes`.)
 
 * Single regex that matches either of these:
 
+    `/(antelopes? rocks? out)/g`
+
     antelope rocks out
     
     antelopes rock out
 
 * Regex that matches either of:
+
+    `/([c-z]oat)/g`
 
     goat
     
@@ -24,6 +28,8 @@ both `antelope` and `antelopes`.)
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
   is correct (e.g 3333-33-33 can match).
+
+  `/\d{4}-\d{2}-\d{2}/g` 
 
   2000-10-12
   
@@ -55,6 +61,8 @@ both `antelope` and `antelopes`.)
   for commands to change its behavior. For example:
 
       ESC[12;45f
+    
+    `/\e[\d+;\d+f/g` 
 
   moves the cursor to line 12, column 45.
 

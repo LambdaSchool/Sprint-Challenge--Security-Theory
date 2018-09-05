@@ -1,0 +1,3 @@
+I added an SSH key for my personal laptop to my Github account to better secure my development account, and remove the need to enter my username and password for third-party services/servers. I also have two-factor authentication enabled, and had generated a key in the past, but did not enable it in my shell. In order to achieve this, I had to remove the old keys, create a `config` file at `/.ssh/config`, and add the MacOS specific configuration as detailed [here](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
+
+I've added the confirmation message to this repo, [here](./confirmation.png).
