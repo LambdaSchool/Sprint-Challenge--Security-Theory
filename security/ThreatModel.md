@@ -1,7 +1,7 @@
 # Weakness of human methods for password generation
 
 
-# Attack surface: Password creation an encryption
+# Attack surface: Password creation and encryption
 Employees should not be generating passwords at all; they should be truly random and a secure password 
 manager should be used instead.
 Creating passwords with four random words has a potential weakness, and that weakness is based on people
@@ -42,5 +42,7 @@ https://www.pentestpartners.com/security-blog/correcthorsebatterystaple-isnt-a-g
 * Do not follow any human concocted method for creating passwords. 
 * People should not generate passwords at all using any approach but should rather generate truly random 
   passwords using a random password generator and use a secure password manager. For example, using the `correcthorsebatterystable` method, regardless of how strong it may seem, adds an element of predictability to the password, which is undesirable.
+* Use the latest encryption methods and salt the passwords. 
+* Under no circumstances talk about the company's security practices with anyone outside the company.
 
 
