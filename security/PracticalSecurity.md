@@ -1,0 +1,2 @@
+For this portion of the sprint I installed KeePass as well as Virtual Box.
+I searched and read up on Kali Linux's offensive security courses and found what I needed to know to start the free course. Due to time constraints I did not start the actual course but will do it in the near future.
