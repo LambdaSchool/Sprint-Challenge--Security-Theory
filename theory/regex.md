@@ -33,3 +33,11 @@ both `antelope` and `antelopes`.)
     - 812-2-10
 
     Answer: `/(\d+){3,4}\-(\d+){1,2}\-(\d+){2}/g`
+
+4. Come up with regexes for the two above sequences. The one to set the cursor position should accept any digits for the row and column. The bold sequence need only accept `1` (and is a trivial regex). (ESC is a single character which can be represented with `\e` in the regex.)
+
+    - ESC[12;45f
+
+    - ESC[1m
+
+    Answer: `ESC\[\d+\w(;?\d+\w)?/g`
