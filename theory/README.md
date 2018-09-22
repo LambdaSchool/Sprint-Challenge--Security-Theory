@@ -5,11 +5,15 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
+  * ANSWER: (antelope)s?
+
 * Single regex that matches either of these:
 
     antelope rocks out
     
     antelopes rock out
+
+  * ANSWER: antelopes? rocks? out
 
 * Regex that matches either of:
 
@@ -20,6 +24,8 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
+  * ANSWER: (g|m)(oat)
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -32,6 +38,8 @@ both `antelope` and `antelopes`.)
   1999-01-20
   
   812-2-10
+
+  * ANSWER: (\d{1,4})-(\d{1,2})-(\d{1,2})
 
 ## State Machines
 
