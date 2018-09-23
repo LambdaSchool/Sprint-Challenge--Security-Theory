@@ -5,11 +5,15 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
+  * ANSWER: (antelope)s?
+
 * Single regex that matches either of these:
 
     antelope rocks out
     
     antelopes rock out
+
+  * ANSWER: antelopes? rocks? out
 
 * Regex that matches either of:
 
@@ -20,6 +24,8 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
+  * ANSWER: (g|m)(oat)
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -32,6 +38,8 @@ both `antelope` and `antelopes`.)
   1999-01-20
   
   812-2-10
+
+  * ANSWER: (\d{1,4})-(\d{1,2})-(\d{1,2})
 
 ## State Machines
 
@@ -67,8 +75,13 @@ both `antelope` and `antelopes`.)
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
 
+    * ANSWER: (\e)(1)
+    * ANSWER: (\e)(\d{1,})(\d{1,})
+
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
+
+    * I'm not really sure where to begin with this one... but I got something started
 
 > If you're curious, [here are all the VT-100 escape
 > sequences](http://ascii-table.com/ansi-escape-sequences-vt-100.php).
