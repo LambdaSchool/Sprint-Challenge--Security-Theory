@@ -38,6 +38,7 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
+  `/[0-9]/g`
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
