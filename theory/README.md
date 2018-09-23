@@ -11,9 +11,10 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
     
-    * Answer:
+    * Answer(s):
       `/antelopes? rocks? out/g`
-
+      `/[a-u]/g`
+      `/antelopes* rocks* out/g`
 * Regex that matches either of:
 
     goat
