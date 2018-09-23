@@ -10,6 +10,9 @@ both `antelope` and `antelopes`.)
     antelope rocks out
     
     antelopes rock out
+    
+    * Answer:
+      `/antelopes? rocks? out/g`
 
 * Regex that matches either of:
 
