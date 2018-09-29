@@ -40,7 +40,7 @@ This is an open criticism of the correcthorsebatterystable approach to generatin
 
 https://diogomonica.com/2014/10/11/password-security-why-the-horse-battery-staple-is-not-correct/
 https://www.pentestpartners.com/security-blog/correcthorsebatterystaple-isnt-a-good-password-heres-why/
-
+http://passwordresearch.com/papers/paper483.html
 # Mitigation:
 * Do not follow any human concocted method for creating passwords. 
 * People should not generate passwords at all using any approach but should rather generate truly random 
