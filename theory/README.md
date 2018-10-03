@@ -88,7 +88,7 @@ let myRe3 = /\d{1,4}-\d{1,2}-\d{1,2}/g
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
 
-![Screenshot](./vt-100.png "State machine VT-100")
+![Screenshot](./VT-100.png "State machine VT-100")
 
 > If you're curious, [here are all the VT-100 escape
 > sequences](http://ascii-table.com/ansi-escape-sequences-vt-100.php).
