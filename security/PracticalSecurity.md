@@ -1,0 +1,1 @@
+I already used 1password for work but I created a personal account. I'm glad I dont have to remember passwords and I get to make them more secure. 
