@@ -1,0 +1,1 @@
+Your attack surface is the total possibilities of vulnerabilites to compromise your data. An attack vector is a singular approach to compromising data. Adversaries can range from personal to potentially corporate and political actors. Mitigate via 2-factor-auth, passwords managers, and keeping personal info safely guarded and unobtainable.
