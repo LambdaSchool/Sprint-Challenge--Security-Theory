@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="65.5" cy="52.5" rx="30" ry="30"/>
+	<text x="47.5" y="58.5" font-family="Times New Roman" font-size="20">born</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="167.5" cy="422.5" rx="30" ry="30"/>
+	<text x="149.5" y="428.5" font-family="Times New Roman" font-size="20">hunt</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="492.5" cy="148.5" rx="30" ry="30"/>
+	<text x="480.5" y="154.5" font-family="Times New Roman" font-size="20">eat</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="249.5" cy="134.5" rx="30" ry="30"/>
+	<text x="228.5" y="140.5" font-family="Times New Roman" font-size="20">sleep</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="640.5" cy="52.5" rx="30" ry="30"/>
+	<text x="618.5" y="58.5" font-family="Times New Roman" font-size="20">preen</text>
+	<polygon stroke="black" stroke-width="1" points="92.902,64.712 222.098,122.288"/>
+	<polygon fill="black" stroke-width="1" points="222.098,122.288 216.826,114.465 212.755,123.599"/>
+	<text x="82.5" y="114.5" font-family="Times New Roman" font-size="20">tired cub</text>
+	<polygon stroke="black" stroke-width="1" points="241.285,163.353 175.715,393.647"/>
+	<polygon fill="black" stroke-width="1" points="175.715,393.647 182.715,387.322 173.097,384.583"/>
+	<text x="139.5" y="278.5" font-family="Times New Roman" font-size="20">Hungry</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 477.158,174.277 A 606.232,606.232 0 0 1 195.499,411.737"/>
+	<polygon fill="black" stroke-width="1" points="477.158,174.277 468.666,178.385 477.13,183.711"/>
+	<text x="359.5" y="335.5" font-family="Times New Roman" font-size="20">Has food</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 624.687,77.951 A 176.097,176.097 0 0 1 522.187,144.438"/>
+	<polygon fill="black" stroke-width="1" points="624.687,77.951 615.895,81.373 623.91,87.353"/>
+	<text x="584.5" y="141.5" font-family="Times New Roman" font-size="20">got messy eating food</text>
+	<polygon stroke="black" stroke-width="1" points="611.139,58.658 278.861,128.342"/>
+	<polygon fill="black" stroke-width="1" points="278.861,128.342 287.717,131.594 285.665,121.807"/>
+	<text x="336.5" y="78.5" font-family="Times New Roman" font-size="20">tired after eating</text>
+</svg>

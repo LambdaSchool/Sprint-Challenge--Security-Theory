@@ -1,0 +1,3 @@
+I set up a password mananger(keepass), and started adding the major websites i use for school or anything professional to it, i like that i can create these long unique passwords, that make it harder to hack into my stuff.
+
+I downloaded the program, i set up a the file location, i named and set a password for my database, then i added entries to the database for my email and other important information.
