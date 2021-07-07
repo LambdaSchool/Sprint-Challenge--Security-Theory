@@ -11,8 +11,12 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+Answer /([aro]\w+)/g
+Answer 2 /antelopes?\srocks?\sout/g
 * Regex that matches either of:
 
+Answer /([gm]\w+)/g
+Answer 2 /(?:g|m)oat/g 
     goat
     
     moat
@@ -33,6 +37,9 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
+/(?:\d{1,4})-(?:\d{1,2})-(?:\d{1,2})/g
+Answer 2/\d{1,4}-\d{1,2}-\d{1,2}/g
+
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
@@ -42,12 +49,17 @@ both `antelope` and `antelopes`.)
 
       ab*c+d?[ef]
 
+Answer: https://i.imgur.com/VmVglR3.png
+
   Remember the ε transition can be used to move between states without
   consuming input. 
 
 * A lion can be sleeping, eating, hunting, or preening. Draw a state
   machine diagram for the lion and label the transition events that
   cause state transitions.
+  
+Answer: https://i.imgur.com/nkFPgNt.png
+
 
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
@@ -62,6 +74,9 @@ both `antelope` and `antelopes`.)
 
   changes the font to bold.
 
+  Answer /\e[\d+;\d+f/g 
+  Answer /\e[1m/g
+
   * Come up with regexes for the two above sequences. The one to set the
     cursor position should accept any digits for the row and column. The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
@@ -69,6 +84,8 @@ both `antelope` and `antelopes`.)
 
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
+
+https://i.imgur.com/PIssdzQ.png
 
 > If you're curious, [here are all the VT-100 escape
 > sequences](http://ascii-table.com/ansi-escape-sequences-vt-100.php).
